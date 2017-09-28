@@ -1,6 +1,6 @@
-#Prácticas de la asignatura Sistemas Concurrentes y Distribuidos SCD
+# Prácticas de la asignatura Sistemas Concurrentes y Distribuidos SCD
 ------------------------------------------------------------------------------------------------------------
-###Universidad de Granada
+### Universidad de Granada
 - [Práctica Inicial: (Hebras)](https://github.com/pacocp/GII-UGR-Segundo/tree/master/PracticasSCD_UGR/Pr%C3%A1ctica%20inicial)
 - [Práctica1: (Semáforos)](https://github.com/pacocp/GII-UGR-Segundo/tree/master/PracticasSCD_UGR/Pr%C3%A1ctica%201)
   - Fumadores.
