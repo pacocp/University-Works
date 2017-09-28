@@ -1,0 +1,6 @@
+
+Ejecutando AGGAM3...
+
+TIEMPO2894.49
+El exito es: 95.7895
+Las características seleccionadas son:  0  0  1  0  1  0  1  1  1  0  1  1  1  1  0  0  1  0  0  1  1  1  1  0  1  1  1  1  0 

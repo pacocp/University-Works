@@ -1,0 +1,18 @@
+
+Ejecutando Greedy...
+
+iteracion: 0
+Cojo la variable: 55
+iteracion: 1
+Cojo la variable: 0
+iteracion: 2
+Cojo la variable: 83
+iteracion: 3
+Cojo la variable: 66
+iteracion: 4
+Cojo la variable: 7
+iteracion: 5
+PARO
+TIEMPO95.4092
+El exito es: 42.7778
+Las características seleccionadas son:  1  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0 

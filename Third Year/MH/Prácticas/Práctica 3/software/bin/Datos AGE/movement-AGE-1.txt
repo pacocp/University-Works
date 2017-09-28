@@ -1,0 +1,6 @@
+
+Ejecutando AGE...
+
+TIEMPO3121.24
+El exito es: 63.3333
+Las características seleccionadas son: 0 1 0 1 0 1 0 0 1 0 0 1 0 0 0 0 0 1 0 1 1 1 0 0 1 0 1 1 0 0 1 1 0 0 0 1 1 0 0 1 1 1 1 1 1 0 1 1 1 0 1 0 0 0 0 0 1 1 0 0 1 0 1 1 1 1 1 0 0 1 1 0 0 0 1 1 0 1 1 1 1 1 1 1 0 1 0 1 0 

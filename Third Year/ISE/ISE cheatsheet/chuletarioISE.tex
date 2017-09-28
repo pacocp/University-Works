@@ -1,0 +1,99 @@
+\input{preambuloSimple.tex}
+%----------------------------------------------------------------------------------------
+%	TÍTULO Y DATOS DEL ALUMNO
+%----------------------------------------------------------------------------------------
+
+\title{	
+	\normalfont \normalsize 
+	\textsc{{\bf Ingeniería de Servidores (2015-2016)} \\ Grado en Ingeniería Informática \\ Universidad de Granada} \\ [25pt] % Your university, school and/or department name(s)
+	\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+	\huge ISE CheatSheet \\ % The assignment title
+	\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Francisco Carrillo Pérez} % Nombre y apellidos
+
+\date{\normalsize\today} % Incluye la fecha actual
+
+%----------------------------------------------------------------------------------------
+% DOCUMENTO
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+	
+	\maketitle % Muestra el Título
+	
+	\newpage %inserta un salto de página
+	
+	\tableofcontents % para generar el índice de contenidos
+	
+	\newpage
+	
+\section{Variables}
+
+\subsection{Variables temporales de una estación de servicio}
+\begin{itemize}
+	\item \textbf{Tiempo de espera en cola(\textit{W,waiting time})}
+	\item \textbf{Tiempo de servicio(\textit{S,service time})}
+	\item \textbf{Tiempo de respuesta de la estación de servicio(\textit{R,response time})}:\\
+	$R=W+S$
+\end{itemize}
+\subsection{Redes de colas cerradas}
+\begin{itemize}
+	\item \textbf{Red cerrada tipo batch: } $N_T=N_0$
+	\item \textbf{Red cerrada tipo interactivo: } $N_T=N_0+N_Z$
+	\item \textit{$N_0=$Número de trabajos en el servidor}
+	\item \textit{$N_Z=$ Número de trabajos en reflexión (esperando a que los usuarios vuelvan a introducirlos en el servidor)}
+\end{itemize}
+\subsection{Variables operacionales básicas}
+\begin{itemize}
+	\item \textbf{$T$} Duración del periodo de medida para el que se extrae el modelo.
+	\item \textbf{$A_i$} Número de trabajos solicitados a la estación (llegadas, \textit{arrivals})
+	\item \textbf{$C_i$} Número de trabajos completados por la estación (salidas,\textit{completions})
+	\item \textbf{$B_i$} Tiempo que el dispositivo está ocupado (\textit{busy time})
+\end{itemize}
+\subsection{Variables operacionales deducidas}
+\begin{itemize}
+	\item \textbf{$\lambda_i$} Tasa de llegada (\textit{arrival rate}): $\lambda_i = \frac{A_i}{T} $ trabajos/segundo
+	\item \textbf{$\tau_i$} Tiempo medio entre llegadas (\textit{interarrival time}): $\tau_i= \frac{1}{\lambda_i}=\frac{T}{A_i}$ segundos[/trabajo]
+	\item \textbf{$X_i$} Productividad(\textit{throughput}): $X_i=\frac{C_i}{T}$ trabajos/segundo
+	\item \textbf{$S_i$} Tiempo medio de servicio (\textit{service time}): $S_i=\frac{B_i}{C_i}$ segundos
+	\item \textbf{$W_i$} Tiempo medio de espera en cola (\textit{waiting time}): $W_i=R_i - S_i$ segundos
+	\item \textbf{$R_i$} Tiempo medio de respuesta (\textit{response time}): $R_i= W_i + S_i$ segundos
+	\item \textbf{$N_i$} Número medio de trabajos en la estación de servicio
+	\item \textbf{$Q_i$} Número medio de trabajos en cola de espera(\textit{jobs in queue})
+	\item \textbf{$U_i$} Número medio de trabajos siendo servidos por el dispositivo: $U_i = N_i - Q_i$
+\end{itemize}
+\subsection{Variables globales del servidor}
+\begin{itemize}
+	\item \textbf{$A_0$} Número de trabajos solicitados al servidor (\textit{arrivals})
+	\item \textbf{$C_0$} Número de trabajos completados por el servidor (\textit{completions})
+	\item \textbf{$\lambda_0$} Tasa de llegada al servidor (\textit{arrival rate}): $\lambda_i = \frac{A_0}{T} $ trabajos/segundo
+	\item \textbf{$\tau_0$} Tiempo medio entre llegadas al servidor (\textit{interarrival time}): $\tau_0= \frac{1}{\lambda_0}=\frac{T}{A_0}$ segundos[/trabajo]
+	\item \textbf{$X_0$} Productividad sel servidor (\textit{throughput}): $X_0=\frac{C_0}{T}$ trabajos/segundo
+	\item \textbf{$R_0$} Tiempo medio de respuesta del servidor (\textit{response time}): $R_0= W_i + S_i$ segundos
+	\item \textbf{$N_0$} Número medio de trabajos en el servidor (\textit{jobs}) = $N_1+N_2+...+N_k$
+\end{itemize}
+\subsection{Razón de visita y demanda de servicio}
+\begin{itemize}
+	\item \textbf{Razón de visita $V_i$} \textit{visit ratio}: $V_i= \frac{C_i}{C_0}$
+	\item \textbf{Demanda de servicio $D_i$} \textit{service demand}: $D_i= \frac{B_i}{C_0}= V_i \times S_i$
+\end{itemize}
+
+\section{Leyes}
+\subsection{Ley de Little}
+\textbf{Aplicada a un servidor: } $N_0=\lambda_0 \times R_0$\\
+\textbf{Bajo la hipótesis del equilibrio de flujo(servidor no saturado): }\\ $N_0=\lambda_0 \times R_0 = X_0 \times R_0$\\
+\textbf{Aplicación a toda una estación de servicio: } $N_i=\lambda_i \times R_i = X_i \times R_i$\\
+\textbf{Aplicación a la cola de una estación de servivio: } $Q_i=\lambda_i \times W_i = X_i \times W_i$\\
+\subsection{Ley de la Utilización}
+\textbf{Aplicada a un servidor: } $U_i=\frac{B_i}{T}= \frac{C_i}{T} \times \frac{B_i}{C_i} = X_i \times S_i$\\
+\textbf{Para un sistema en equilibrio de flujo(servidor no saturado): }\\ $U_i=\lambda_i \times S_i=X_i \times S_i$
+\subsection{Ley de flujo forzado}
+\textbf{Ley de Flujo Forzado: } $X_i=X_0 \times V_i$\\
+\textbf{Relación Utilización-Demanda de Servicio: } $U_i=X_i \times S_i=X_0 \times V_i \times S_i = X_0 \times D_i$
+\subsection{Ley General del tiempo de respuesta}
+$R_0 = V_1 \times R_1 + V_2 \times R_2+...+ V_k \times R_k = \sum_{i=1}^k V_i \times R_i $
+\subsection{Ley del tiempo de respuesta interactivo}
+$R_0 =\frac{N_T}{X_0} - Z$
+\end{document}

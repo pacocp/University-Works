@@ -1,0 +1,176 @@
+BMB-------------
+arrythmia-0
+arrythmia-1
+arrythmia-2
+arrythmia-3
+arrythmia-4
+movement-0
+movement-1
+movement-2
+movement-3
+movement-4
+w-0
+w-1
+w-2
+w-3
+w-4
+ILS------------
+arrythmia-0
+arrythmia-1
+arrythmia-2
+arrythmia-3
+arrythmia-4
+movement-0
+movement-1
+movement-2
+movement-3
+movement-4
+w-0
+w-1
+w-2
+w-3
+w-4
+
+Arrythmia
+
+real	1m59.885s
+user	1m59.848s
+sys	0m0.080s
+
+real	1m24.688s
+user	1m24.676s
+sys	0m0.044s
+
+real	1m37.695s
+user	1m37.660s
+sys	0m0.048s
+
+real	2m5.954s
+user	2m5.912s
+sys	0m0.108s
+
+
+
+real	1m24.779s
+user	1m24.764s
+sys	0m0.044s
+
+Movement
+
+real	4m58.280s
+user	4m58.404s
+sys	0m0.108s
+
+real	2m8.161s
+user	2m8.208s
+sys	0m0.052s
+
+real	7m41.302s
+user	7m41.428s
+sys	0m0.196s
+
+real	7m48.031s
+user	7m48.132s
+sys	0m0.204s
+
+real	5m43.956s
+user	5m43.992s
+sys	0m0.156s
+
+
+Wdbc
+
+real	1m49.032s
+user	1m49.060s
+sys	0m0.040s
+
+real	1m38.088s
+user	1m38.112s
+sys	0m0.020s
+
+
+real	1m23.404s
+user	1m23.424s
+sys	0m0.036s
+
+real	1m40.798s
+user	1m40.820s
+sys	0m0.036s
+
+real	1m40.285s
+user	1m40.316s
+sys	0m0.020s
+
+
+.....................
+arrythmia
+real	1m44.592s
+user	1m44.624s
+sys	0m0.048s
+
+
+
+real	3m10.371s
+user	3m10.412s
+sys	0m0.088s
+
+real	1m14.607s
+user	1m14.612s
+sys	0m0.052s
+
+real	1m47.528s
+user	1m47.548s
+sys	0m0.064s
+
+real	4m7.550s
+user	4m7.600s
+sys	0m0.132s
+    
+Broadcast message from pacocp@pacocp-Lenovo-Yoga-2-13
+	(/dev/pts/0) at 0:16 ...
+
+The system is going down for halt in 360 minutes!
+
+Movement
+
+real	6m16.249s
+user	6m16.380s
+sys	0m0.156s
+
+real	2m10.797s
+user	2m10.844s
+sys	0m0.052s
+
+real	7m48.825s
+user	7m49.000s
+sys	0m0.180s
+
+real	7m33.545s
+user	7m33.688s
+sys	0m0.204s
+
+real	6m44.414s
+user	6m44.536s
+sys	0m0.200s
+
+wdbc
+
+real	1m27.014s
+user	1m27.064s
+sys	0m0.012s
+
+real	1m17.262s
+user	1m17.296s
+sys	0m0.004s
+
+real	1m9.663s
+user	1m9.700s
+sys	0m0.016s
+
+real	1m55.538s
+user	1m55.600s
+sys	0m0.020s
+
+real	1m41.123s
+user	1m41.160s
+sys	0m0.024s

@@ -1,0 +1,50 @@
+MOVEMENT-0
+
+real    0m0.634s
+user    0m0.617s
+sys     0m0.000s
+MOVEMENT-1
+
+real    0m0.641s
+user    0m0.617s
+sys     0m0.003s
+MOVEMENT-2
+
+real    0m0.652s
+user    0m0.630s
+sys     0m0.000s
+MOVEMENT-3
+
+real    0m0.646s
+user    0m0.627s
+sys     0m0.000s
+MOVEMENT-4
+
+real    0m2.246s
+user    0m2.230s
+sys     0m0.000s
+W-0
+
+real    0m9.553s
+user    0m9.523s
+sys     0m0.003s
+W-1
+
+real    0m1.551s
+user    0m1.527s
+sys     0m0.000s
+W-2
+
+real    0m1.847s
+user    0m1.817s
+sys     0m0.000s
+W-3
+
+real    0m9.468s
+user    0m9.440s
+sys     0m0.003s
+W-4
+
+real    0m1.558s
+user    0m1.533s
+sys     0m0.007s

@@ -1,0 +1,150 @@
+
+Ejecutando GRASP...
+
+iteracion: 0
+Cojo la variable: 12
+iteracion: 1
+Cojo la variable: 20
+iteracion: 2
+Cojo la variable: 35
+iteracion: 3
+Cojo la variable: 88
+iteracion: 4
+Cojo la variable: 107
+iteracion: 5
+Cojo la variable: 255
+iteracion: 6
+PARO
+iteracion: 0
+Cojo la variable: 91
+iteracion: 1
+Cojo la variable: 104
+iteracion: 2
+Cojo la variable: 183
+iteracion: 3
+PARO
+iteracion: 0
+Cojo la variable: 89
+iteracion: 1
+PARO
+iteracion: 0
+Cojo la variable: 101
+iteracion: 1
+Cojo la variable: 222
+iteracion: 2
+PARO
+iteracion: 0
+Cojo la variable: 93
+iteracion: 1
+Cojo la variable: 12
+iteracion: 2
+Cojo la variable: 65
+iteracion: 3
+Cojo la variable: 209
+iteracion: 4
+PARO
+iteracion: 0
+Cojo la variable: 232
+iteracion: 1
+Cojo la variable: 98
+iteracion: 2
+PARO
+iteracion: 0
+Cojo la variable: 88
+iteracion: 1
+Cojo la variable: 20
+iteracion: 2
+Cojo la variable: 80
+iteracion: 3
+Cojo la variable: 126
+iteracion: 4
+Cojo la variable: 78
+iteracion: 5
+Cojo la variable: 272
+iteracion: 6
+Cojo la variable: 219
+iteracion: 7
+Cojo la variable: 83
+iteracion: 8
+Cojo la variable: 44
+iteracion: 9
+Cojo la variable: 262
+iteracion: 10
+Cojo la variable: 108
+iteracion: 11
+PARO
+iteracion: 0
+Cojo la variable: 101
+iteracion: 1
+Cojo la variable: 98
+iteracion: 2
+PARO
+iteracion: 0
+Cojo la variable: 232
+iteracion: 1
+Cojo la variable: 54
+iteracion: 2
+Cojo la variable: 104
+iteracion: 3
+PARO
+iteracion: 0
+Cojo la variable: 222
+iteracion: 1
+Cojo la variable: 22
+iteracion: 2
+Cojo la variable: 119
+iteracion: 3
+Cojo la variable: 78
+iteracion: 4
+Cojo la variable: 128
+iteracion: 5
+PARO
+iteracion: 0
+Cojo la variable: 101
+iteracion: 1
+Cojo la variable: 53
+iteracion: 2
+Cojo la variable: 114
+iteracion: 3
+PARO
+iteracion: 0
+Cojo la variable: 93
+iteracion: 1
+Cojo la variable: 195
+iteracion: 2
+PARO
+iteracion: 0
+Cojo la variable: 91
+iteracion: 1
+Cojo la variable: 69
+iteracion: 2
+PARO
+iteracion: 0
+Cojo la variable: 101
+iteracion: 1
+Cojo la variable: 13
+iteracion: 2
+Cojo la variable: 173
+iteracion: 3
+Cojo la variable: 223
+iteracion: 4
+Cojo la variable: 243
+iteracion: 5
+Cojo la variable: 197
+iteracion: 6
+Cojo la variable: 190
+iteracion: 7
+Cojo la variable: 70
+iteracion: 8
+PARO
+iteracion: 0
+Cojo la variable: 195
+iteracion: 1
+Cojo la variable: 30
+iteracion: 2
+Cojo la variable: 91
+iteracion: 3
+PARO
+TIEMPO15826.2
+El exito es: 68.3938
+Las características seleccionadas son:  0  0  1  0  0  0  0  1  0  1  0  0  0  1  0  1  0  0  1  0  1  0  0  0  0  1  1  1  0  0  0  0  0  0  1  1  1  1  1  0  1  1  0  0  0  1  0  1  1  1  0  0  0  1  1  0  0  0  0  0  1  0  0  1  0  0  1  0  0  0  0  1  0  0  1  0  1  1  0  1  1  0  0  1  1  0  1  0  1  1  0  1  1  0  1  0  0  0  0  0  1  1  1  1  0  1  1  0  1  1  1  1  0  0  0  1  1  0  1  1  0  0  1  0  0  1  1  0  0  0  1  0  1  1  1  1  0  0  0  0  1  0  0  1  0  0  0  0  0  1  0  1  1  1  1  0  0  0  1  0  0  0  0  0  1  0  0  0  1  1  1  0  0  1  0  0  1  0  1  0  0  1  1  0  0  1  1  1  1  0  0  0  0  0  1  0  0  1  0  1  1  1  1  0  1  1  0  0  0  0  1  1  0  1  1  1  0  1  1  0  0  1  1  1  0  0  0  0  0  1  0  0  1  1  1  1  0  1  1  1  1  1  0  0  1  0  1  0  1  1  1  0  1  0  1  1  0  1  0  0  0  1  0  0  1  1  0  0  0  0  0  0  1  1  0  1  1 

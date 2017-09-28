@@ -1,0 +1,50 @@
+MOVEMENT-0
+
+real    23m7.391s
+user    23m6.767s
+sys     0m0.623s
+MOVEMENT-1
+
+real    21m45.819s
+user    21m44.803s
+sys     0m0.640s
+MOVEMENT-2
+
+real    21m54.176s
+user    21m53.180s
+sys     0m0.617s
+MOVEMENT-3
+
+real    21m59.251s
+user    21m58.300s
+sys     0m0.570s
+MOVEMENT-4
+
+real    22m20.186s
+user    22m19.147s
+sys     0m0.597s
+W-0
+
+real    3m46.510s
+user    3m46.050s
+sys     0m0.037s
+W-1
+
+real    3m48.704s
+user    3m48.227s
+sys     0m0.033s
+W-2
+
+real    3m50.012s
+user    3m49.567s
+sys     0m0.030s
+W-3
+
+real    3m49.821s
+user    3m49.360s
+sys     0m0.040s
+W-4
+
+real    3m50.931s
+user    3m50.470s
+sys     0m0.050s

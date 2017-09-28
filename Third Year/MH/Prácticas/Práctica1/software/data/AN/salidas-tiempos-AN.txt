@@ -1,0 +1,75 @@
+arrythmia-0
+
+real    6m0.326s
+user    6m0.167s
+sys     0m0.163s
+arrythmia-1
+
+real    5m19.053s
+user    5m18.897s
+sys     0m0.163s
+arrythmia-2
+
+real    3m10.195s
+user    3m10.067s
+sys     0m0.130s
+arrythmia-3
+
+real    5m17.894s
+user    5m17.740s
+sys     0m0.133s
+arrythmia-4
+
+real    5m33.198s
+user    5m32.980s
+sys     0m0.223s
+movement-0
+
+real    0m18.898s
+user    0m18.893s
+sys     0m0.003s
+movement-1
+
+real    0m56.567s
+user    0m56.540s
+sys     0m0.027s
+movement-2
+
+real    0m37.021s
+user    0m37.003s
+sys     0m0.010s
+movement-3
+
+real    0m39.862s
+user    0m39.830s
+sys     0m0.027s
+movement-4
+
+real    0m45.300s
+user    0m45.267s
+sys     0m0.030s
+w-0
+
+real    0m10.004s
+user    0m10.000s
+sys     0m0.000s
+w-1
+
+real    0m12.402s
+user    0m12.397s
+sys     0m0.000s
+w-2
+
+real    0m15.735s
+user    0m15.733s
+sys     0m0.000s
+w-3
+
+real    0m9.519s
+user    0m9.513s
+sys     0m0.003s
+w-4
+
+real    0m15.938s
+user    0m15.933s
+sys     0m0.003s

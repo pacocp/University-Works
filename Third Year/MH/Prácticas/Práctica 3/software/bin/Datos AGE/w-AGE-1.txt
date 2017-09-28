@@ -1,0 +1,6 @@
+
+Ejecutando AGE...
+
+TIEMPO4650.21
+El exito es: 96.4912
+Las características seleccionadas son: 0 0 0 1 0 1 0 1 1 0 1 0 1 1 1 1 0 0 0 0 0 0 0 1 0 1 1 0 0 

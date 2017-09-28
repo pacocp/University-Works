@@ -1,0 +1,36 @@
+
+Ejecutando GRASP...
+
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+PARO
+TIEMPO505.722
+El exito es: 38.3333
+Las características seleccionadas son:  1  1  1  1  1  0  0  1  1  1  0  1  1  1  0  0  0  1  1  0  0  1  1  0  0  1  1  0  1  1  1  0  1  1  0  0  1  1  0  0  1  1  1  1  1  0  1  0  1  0  1  1  0  0  0  1  1  1  0  0  0  0  1  1  0  0  0  0  0  1  1  1  1  0  0  1  0  0  0  0  1  0  0  0  1  1  0  0  1 

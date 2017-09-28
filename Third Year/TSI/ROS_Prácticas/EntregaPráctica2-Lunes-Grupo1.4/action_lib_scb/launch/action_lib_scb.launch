@@ -1,0 +1,18 @@
+<launch>
+  <param name="goal_x" value="-18.5"/>
+  <param name="goal_y" value="27.5"/>
+  <param name="goal_theta" value="45"/>
+
+  <param name="att_r" value="0.01"/>
+  <param name="att_s" value="3.5"/>
+  <param name="att_i" value="0.05"/>
+
+  <param name="rep_r" value="0.02"/>
+  <param name="rep_s" value="3.5"/>
+  <param name="rep_i" value="0.06"/>
+
+  <node name="stage" pkg="stage_ros" type="stageros" args="$(find stage_ros)/world/willow-erratic.world"/>
+  
+  <node name="client_scb_node" pkg="action_lib_scb" type="client_scb_node" output="screen"/>
+  <node name="server_scb_node" pkg="action_lib_scb" type="server_scb_node" output="screen"/>
+</launch>

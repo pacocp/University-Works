@@ -1,0 +1,2 @@
+El exito es: 92.9825
+Las características seleccionadas son: 1 1 1 0 1 0 1 1 1 0 1 0 1 0 0 0 0 0 0 0 0 0 1 0 1 1 0 1 1 

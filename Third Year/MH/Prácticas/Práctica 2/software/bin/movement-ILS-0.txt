@@ -1,0 +1,6 @@
+
+Ejecutando ILS...
+
+TIEMPO55.9213
+El exito es: 37.7778
+Las características seleccionadas son:  1  1  0  1  1  0  1  1  0  1  0  1  0  1  1  0  1  1  1  0  1  0  1  1  1  0  1  1  0  0  1  1  1  0  0  1  1  1  1  0  1  0  0  1  1  1  1  1  0  0  1  0  0  1  0  1  0  0  0  1  0  0  1  0  0  1  1  0  1  1  1  1  0  0  1  1  1  0  0  1  0  0  0  1  1  1  0  1  0 

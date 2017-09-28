@@ -1,0 +1,338 @@
+
+Ejecutando GRASP...
+
+iteracion: 0
+PARO
+iteracion: 0
+Cojo la variable: 22
+iteracion: 1
+Cojo la variable: 6
+iteracion: 2
+Cojo la variable: 27
+iteracion: 3
+PARO
+iteracion: 0
+Cojo la variable: 27
+iteracion: 1
+Cojo la variable: 19
+iteracion: 2
+PARO
+iteracion: 0
+Cojo la variable: 23
+iteracion: 1
+Cojo la variable: 9
+iteracion: 2
+Cojo la variable: 10
+iteracion: 3
+Cojo la variable: 27
+iteracion: 4
+Cojo la variable: 14
+iteracion: 5
+Cojo la variable: 20
+iteracion: 6
+Cojo la variable: 21
+iteracion: 7
+Cojo la variable: 25
+iteracion: 8
+Cojo la variable: 17
+iteracion: 9
+Cojo la variable: 1
+iteracion: 10
+Cojo la variable: 0
+iteracion: 11
+Cojo la variable: 18
+iteracion: 12
+Cojo la variable: 15
+iteracion: 13
+Cojo la variable: 19
+iteracion: 14
+Cojo la variable: 7
+iteracion: 15
+Cojo la variable: 2
+iteracion: 16
+Cojo la variable: 24
+iteracion: 17
+Cojo la variable: 8
+iteracion: 18
+Cojo la variable: 5
+iteracion: 19
+Cojo la variable: 26
+iteracion: 20
+Cojo la variable: 28
+iteracion: 21
+Cojo la variable: 3
+iteracion: 22
+Cojo la variable: 6
+iteracion: 23
+Cojo la variable: 11
+iteracion: 24
+Cojo la variable: 12
+iteracion: 25
+PARO
+iteracion: 0
+PARO
+iteracion: 0
+Cojo la variable: 2
+iteracion: 1
+PARO
+iteracion: 0
+Cojo la variable: 2
+iteracion: 1
+Cojo la variable: 7
+iteracion: 2
+Cojo la variable: 26
+iteracion: 3
+Cojo la variable: 9
+iteracion: 4
+Cojo la variable: 14
+iteracion: 5
+Cojo la variable: 4
+iteracion: 6
+Cojo la variable: 23
+iteracion: 7
+Cojo la variable: 11
+iteracion: 8
+Cojo la variable: 22
+iteracion: 9
+Cojo la variable: 20
+iteracion: 10
+Cojo la variable: 6
+iteracion: 11
+Cojo la variable: 28
+iteracion: 12
+Cojo la variable: 27
+iteracion: 13
+Cojo la variable: 18
+iteracion: 14
+Cojo la variable: 21
+iteracion: 15
+Cojo la variable: 16
+iteracion: 16
+Cojo la variable: 5
+iteracion: 17
+Cojo la variable: 12
+iteracion: 18
+Cojo la variable: 17
+iteracion: 19
+Cojo la variable: 10
+iteracion: 20
+Cojo la variable: 3
+iteracion: 21
+Cojo la variable: 25
+iteracion: 22
+Cojo la variable: 15
+iteracion: 23
+Cojo la variable: 1
+iteracion: 24
+Cojo la variable: 0
+iteracion: 25
+PARO
+iteracion: 0
+Cojo la variable: 27
+iteracion: 1
+Cojo la variable: 23
+iteracion: 2
+Cojo la variable: 22
+iteracion: 3
+Cojo la variable: 12
+iteracion: 4
+Cojo la variable: 10
+iteracion: 5
+Cojo la variable: 28
+iteracion: 6
+Cojo la variable: 5
+iteracion: 7
+PARO
+iteracion: 0
+Cojo la variable: 22
+iteracion: 1
+Cojo la variable: 7
+iteracion: 2
+Cojo la variable: 13
+iteracion: 3
+Cojo la variable: 6
+iteracion: 4
+Cojo la variable: 12
+iteracion: 5
+Cojo la variable: 3
+iteracion: 6
+Cojo la variable: 4
+iteracion: 7
+Cojo la variable: 14
+iteracion: 8
+Cojo la variable: 0
+iteracion: 9
+Cojo la variable: 26
+iteracion: 10
+Cojo la variable: 24
+iteracion: 11
+Cojo la variable: 8
+iteracion: 12
+Cojo la variable: 19
+iteracion: 13
+Cojo la variable: 2
+iteracion: 14
+Cojo la variable: 21
+iteracion: 15
+Cojo la variable: 16
+iteracion: 16
+Cojo la variable: 18
+iteracion: 17
+Cojo la variable: 10
+iteracion: 18
+Cojo la variable: 17
+iteracion: 19
+Cojo la variable: 27
+iteracion: 20
+Cojo la variable: 28
+iteracion: 21
+Cojo la variable: 23
+iteracion: 22
+Cojo la variable: 25
+iteracion: 23
+Cojo la variable: 5
+iteracion: 24
+Cojo la variable: 15
+iteracion: 25
+Cojo la variable: 9
+iteracion: 26
+Cojo la variable: 11
+iteracion: 27
+Cojo la variable: 20
+iteracion: 28
+PARO
+iteracion: 0
+Cojo la variable: 20
+iteracion: 1
+Cojo la variable: 16
+iteracion: 2
+Cojo la variable: 9
+iteracion: 3
+Cojo la variable: 25
+iteracion: 4
+Cojo la variable: 5
+iteracion: 5
+Cojo la variable: 11
+iteracion: 6
+Cojo la variable: 10
+iteracion: 7
+PARO
+iteracion: 0
+Cojo la variable: 2
+iteracion: 1
+PARO
+iteracion: 0
+Cojo la variable: 26
+iteracion: 1
+Cojo la variable: 25
+iteracion: 2
+Cojo la variable: 2
+iteracion: 3
+Cojo la variable: 6
+iteracion: 4
+Cojo la variable: 18
+iteracion: 5
+Cojo la variable: 1
+iteracion: 6
+PARO
+iteracion: 0
+Cojo la variable: 13
+iteracion: 1
+Cojo la variable: 16
+iteracion: 2
+Cojo la variable: 26
+iteracion: 3
+Cojo la variable: 15
+iteracion: 4
+Cojo la variable: 2
+iteracion: 5
+Cojo la variable: 21
+iteracion: 6
+Cojo la variable: 7
+iteracion: 7
+Cojo la variable: 5
+iteracion: 8
+Cojo la variable: 22
+iteracion: 9
+Cojo la variable: 12
+iteracion: 10
+Cojo la variable: 4
+iteracion: 11
+Cojo la variable: 0
+iteracion: 12
+Cojo la variable: 17
+iteracion: 13
+Cojo la variable: 20
+iteracion: 14
+Cojo la variable: 14
+iteracion: 15
+PARO
+iteracion: 0
+Cojo la variable: 3
+iteracion: 1
+Cojo la variable: 21
+iteracion: 2
+Cojo la variable: 10
+iteracion: 3
+Cojo la variable: 19
+iteracion: 4
+Cojo la variable: 22
+iteracion: 5
+Cojo la variable: 11
+iteracion: 6
+Cojo la variable: 18
+iteracion: 7
+Cojo la variable: 8
+iteracion: 8
+Cojo la variable: 5
+iteracion: 9
+PARO
+iteracion: 0
+Cojo la variable: 23
+iteracion: 1
+Cojo la variable: 21
+iteracion: 2
+Cojo la variable: 11
+iteracion: 3
+Cojo la variable: 20
+iteracion: 4
+Cojo la variable: 22
+iteracion: 5
+Cojo la variable: 17
+iteracion: 6
+Cojo la variable: 4
+iteracion: 7
+Cojo la variable: 0
+iteracion: 8
+Cojo la variable: 8
+iteracion: 9
+Cojo la variable: 19
+iteracion: 10
+Cojo la variable: 25
+iteracion: 11
+Cojo la variable: 6
+iteracion: 12
+Cojo la variable: 3
+iteracion: 13
+Cojo la variable: 18
+iteracion: 14
+Cojo la variable: 26
+iteracion: 15
+Cojo la variable: 12
+iteracion: 16
+Cojo la variable: 9
+iteracion: 17
+Cojo la variable: 27
+iteracion: 18
+Cojo la variable: 28
+iteracion: 19
+Cojo la variable: 7
+iteracion: 20
+Cojo la variable: 24
+iteracion: 21
+Cojo la variable: 15
+iteracion: 22
+PARO
+TIEMPO2181.08
+El exito es: 94.0351
+Las características seleccionadas son:  0  1  1  0  1  0  0  1  1  1  1  0  0  0  0  1  0  0  1  1  1  0  1  0  1  0  1  0  1 

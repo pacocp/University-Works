@@ -1,0 +1,6 @@
+
+Ejecutando AGG...
+
+TIEMPO4660.58
+El exito es: 90.5263
+Las características seleccionadas son: 0 0 1 1 0 0 1 1 0 1 0 1 1 1 1 0 1 1 0 1 0 1 0 1 0 0 1 1 0 
