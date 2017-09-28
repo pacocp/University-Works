@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n }{3}{0}{1}
+\beamer@sectionintoc {2}{Ordenaci\IeC {\'o}n}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Burbuja}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Selecci\IeC {\'o}n}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Inserci\IeC {\'o}n}{10}{0}{2}
+\beamer@sectionintoc {3}{Ordenaci\IeC {\'o}n r\IeC {\'a}pida}{13}{0}{3}
+\beamer@subsectionintoc {3}{1}{Quick Sort}{14}{0}{3}
+\beamer@subsectionintoc {3}{2}{Heap Sort}{16}{0}{3}
+\beamer@subsectionintoc {3}{3}{Merge Sort}{20}{0}{3}
+\beamer@sectionintoc {4}{Floyd}{23}{0}{4}
+\beamer@sectionintoc {5}{Hanoi}{28}{0}{5}

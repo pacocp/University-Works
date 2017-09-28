@@ -1,0 +1,190 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"filosofos",
+				"filosofos_comiendo"
+			],
+			[
+				"MPI",
+				"MPI_INT"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/paco/2 año /ED/Práctica 6/gs1Set.h",
+		"/home/paco/2 año /ED/Práctica 6/gs1Set.cpp",
+		"/home/paco/2 año /SO/MODII/Sesion6/src/programa1-Tarea13-prac6.c",
+		"/home/paco/Napakalaki/src/GIU/NapakalakiView.java",
+		"/home/paco/Napakalaki/src/GIU/PlayerNamesCapture.form",
+		"/home/paco/2 año /SO/MODII/Sesion6/src/programa2-Tarea14-prac6.c",
+		"/home/paco/2 año /SO/MODII/Sesion6/src/programa3-Tarea15-prac6.c",
+		"/home/paco/2 año /SO/MODII/Sesion6/src/programa4-Tarea16-prac6.c",
+		"/home/paco/2 año /SO/MODII/Sesion6/src/programa5-Tarea17-prac6.c",
+		"/home/paco/2 año /SO/MODII/Sesion6/src/programa6-Tarea18-prac6.c",
+		"/home/paco/2 año /SO/MODII/Sesion6/src/programa7-Tarea19-prac6.c",
+		"/home/paco/napakalaki_java/gui/PlayerView.java",
+		"/home/paco/napakalaki_java/gui/NapakalakiView.java",
+		"/home/paco/2 año /SO/MODII/Sesion6/ejercicio1.c",
+		"/home/paco/2 año /SCD/Práctica 3/filosofos-camarero-mpi.cpp",
+		"/home/paco/2 año /SCD/Práctica 3/filosofos-mpi.cpp",
+		"/home/paco/2 año /ED/Práctica 5/polinomio.hxx",
+		"/home/paco/2 año /ED/Práctica 5/vectorD.hxx",
+		"/home/paco/2 año /ED/Práctica 5/polinomio.h",
+		"/home/paco/2 año /ED/Práctica 5/vectorD-M.hxx",
+		"/home/paco/2 año /ED/Práctica 5/vectorD-M.h",
+		"/home/paco/2 año /ED/Práctica 5/vectorD.h",
+		"/home/paco/2 año /ED/Práctica 5/main.cpp",
+		"/home/paco/2 año /ED/Práctica 5/ejemplo",
+		"/home/paco/2 año /SCD/Práctica 3/productor-consumidor-mpi.cpp"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"struct flock cerrojo;\n	int fd;\n	while (--argc > 0 ) {\n		if ((fd=open(*++argv, O_RDWR)) == -1 ){\n			perror(\"open fallo\");\n			continue;\n		}\n	cerrojo.l_type=F_WRLCK;\n	cerrojo.l_whence=SEEK_SET;\n	cerrojo.l_start=0;\n	cerrojo.l_len=0;",
+			"#define \n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "sendrecv2.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

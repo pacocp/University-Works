@@ -1,0 +1,18 @@
+ALUMNO: FRANCISCO CARRILLO PÉREZ  GRUPO: B1
+
+PRODUCTOR CONSUMIDOR
+
+En el problema del productor consumidor he utilizado 3 semáforos.
+-El semáforo sem_prod que es el semáforo para el productor y que está inicializado al tamaño del vector para que pueda estar produciendo hasta que haya producido todos los elementos del mismo.
+- El semáforo sem_cons que es el semáforo del consumidor, y que está inicializado a 0. Y que es liberado por el productor tras producir un dato.
+
+- El semáforo sem_mutex que es para la sección crítica del código, está inicializado a 0, que contiene la variable compartida primera_libre que nos indica cual es la primera posición libre del vector. Cuando el productor produce esta se aumenta y cuando el consumidor consume esta disminuye.
+
+FUMADORES
+
+En el problema de los fumadores he utilizado 4 semáforos, uno para el estanquero y 1 para cada fumador respectivamente.
+
+-El semáforo sem_estanquero es el semáforo del estanquero y está inicializado a 1, para que empiece poniendo un elemento en la mesa, para luego esperar a que uno de los fumadores coja el elemento.
+
+- Los semáforos de los fumadores(sem_fum1,sem_fum2 y sem_fum3) están inicializados a 0, cuando el estanquero produce su elemento los libera.
+Hay un wait antes de que coga el ingrediente para poner el semáforo a 0, a la espera de que el estanquero lo vuelva a liberar,  coge el ingrediente, y ahí hasta que fuman.

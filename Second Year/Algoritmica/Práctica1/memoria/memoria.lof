@@ -1,0 +1,23 @@
+\select@language {spanish}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Gr\IeC {\'a}fica de la funci\IeC {\'o}n $n^2$}}{4}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Algoritmo de Burbuja, gr\IeC {\'a}fica emp\IeC {\'\i }rica.}}{5}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ajuste h\IeC {\'\i }brido algoritmo Burbuja y funci\IeC {\'o}n $n^2$}}{6}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Algoritmo de selecci\IeC {\'o}n, gr\IeC {\'a}fica emp\IeC {\'\i }rica. }}{7}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Gr\IeC {\'a}fica ajuste h\IeC {\'\i }brido. Selecci\IeC {\'o}n y $n^2$}}{8}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Algoritmo de Inserci\IeC {\'o}n, gr\IeC {\'a}fica emp\IeC {\'\i }rica.}}{9}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Gr\IeC {\'a}fica ajuste h\IeC {\'\i }brido. Inserci\IeC {\'o}n y $n^2$}}{9}{figure.2.7}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Gr\IeC {\'a}fica de la funci\IeC {\'o}n $n*log(n)$}}{10}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Algoritmo Quicksort, gr\IeC {\'a}fica emp\IeC {\'\i }rica. }}{11}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Gr\IeC {\'a}fica h\IeC {\'\i }brida Quicksort.}}{12}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Heapsort, gr\IeC {\'a}fica emp\IeC {\'\i }rica.}}{13}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Heapsort, gr\IeC {\'a}fica h\IeC {\'\i }brida.}}{14}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Comparaci\IeC {\'o}n en dos m\IeC {\'a}quinas. Heapsort.}}{15}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Mergesort, gr\IeC {\'a}fica emp\IeC {\'\i }rica.}}{16}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mergesort, gr\IeC {\'a}fica h\IeC {\'\i }brida.}}{17}{figure.3.8}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Floyd, gr\IeC {\'a}fica emp\IeC {\'\i }rica.}}{18}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Floyd, gr\IeC {\'a}fica h\IeC {\'\i }brida.}}{19}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Floyd, ajuste err\IeC {\'o}neo.}}{20}{figure.4.3}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Hanoi, gr\IeC {\'a}fica emp\IeC {\'\i }rica.}}{21}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Hanoi, gr\IeC {\'a}fica h\IeC {\'\i }brida.}}{22}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Hanoi, Python - C++}}{23}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Hanoi, gr\IeC {\'a}fica con diferentes eficiencias.}}{24}{figure.5.4}

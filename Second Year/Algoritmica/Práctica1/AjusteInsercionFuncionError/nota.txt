@@ -1,0 +1,1 @@
+Realizo la hibrida con una funcion que no corresponde al algoritmo insercion en este caso n*log(n)

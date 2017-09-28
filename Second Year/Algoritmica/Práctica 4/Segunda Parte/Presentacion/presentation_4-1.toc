@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n }{3}{0}{1}
+\beamer@sectionintoc {2}{Representaci\IeC {\'o}n de la soluci\IeC {\'o}n}{4}{0}{2}
+\beamer@sectionintoc {3}{Dise\IeC {\~n}o del algoritmo: Branch and Bound}{5}{0}{3}
+\beamer@sectionintoc {4}{Pseudoc\IeC {\'o}digo}{6}{0}{4}
+\beamer@sectionintoc {5}{Dise\IeC {\~n}o del algoritmo: Backtracking}{7}{0}{5}
+\beamer@sectionintoc {6}{Pseudoc\IeC {\'o}digo}{8}{0}{6}
+\beamer@sectionintoc {7}{Comparaci\IeC {\'o}n}{9}{0}{7}

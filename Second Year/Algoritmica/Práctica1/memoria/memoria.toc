@@ -1,0 +1,19 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{4}{section.1}
+\contentsline {section}{\numberline {2}Ordenaci\IeC {\'o}n}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Burbuja}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Selecci\IeC {\'o}n}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Inserci\IeC {\'o}n}{8}{subsection.2.3}
+\contentsline {section}{\numberline {3}Ordenaci\IeC {\'o}n r\IeC {\'a}pida}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Quick Sort}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Heap Sort}{12}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Merge Sort}{15}{subsection.3.3}
+\contentsline {section}{\numberline {4}Floyd}{17}{section.4}
+\contentsline {subsection}{\numberline {4.1}Gr\IeC {\'a}ficas}{17}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Porcentaje de error y constantes ocultas}{20}{subsection.4.2}
+\contentsline {section}{\numberline {5}Hanoi}{20}{section.5}
+\contentsline {subsection}{\numberline {5.1}Gr\IeC {\'a}ficas}{20}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Comparaciones}{22}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Hanoi en Python}{22}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Hanoi con diferentes optimizaciones}{23}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Porcentaje de error y constantes ocultas}{24}{subsection.5.5}

@@ -1,0 +1,221 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%---------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+ \usepackage{algpseudocode}
+\usepackage[utf8]{inputenc}
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Practica 3]{Minimizando el número de visitas al proveedor} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Algorítmica} % Your name
+\institute[UGR] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+Universidad de Granada \\ % Your institution for the title page
+\medskip
+
+}
+\date{\today} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+\begin{frame}
+\frametitle{Índice} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\section{Introducción }
+\begin{frame}
+	\frametitle{Introducción}
+	\begin{itemize}
+		\item El objetivo de esta práctica es diseñar un algoritmo Greedy, que resuelva de manera óptima uno de los cinco problemas de la práctica y demostrar que dicho algoritmo encuentra siempre la solución óptima.
+	\end{itemize}
+\end{frame}
+
+
+%------------------------------------------------
+\section{Ejercicio} 
+\begin{frame}
+	\frametitle{Enunciado del ejercicio}
+	Un granjero necesita disponer siempre de fertilizante. El granjero consume el fertilizante en \textbf{R} días, antes de que esto ocurra debe acudir a abastecerse. Para esto el granjero se desplaza a la tienda del pueblo, de la que conoce el horario. El granjero desea minimizar el número de desplazamientos al pueblo para abastecerse.
+	
+\end{frame}
+
+%------------------------------------------------
+\section{Diseño del algoritmo} 
+\begin{frame}
+	\frametitle{Diseño del algoritmo}
+	\begin{itemize}
+		\item \textbf{Conjunto de candidatos}: Conjunto de días en que la tienda permanece abierta. (Conjunto \textbf{C})
+		\item \textbf{Conjunto de seleccionados}: Días elegidos para ir a la tienda. (Conjunto \textbf{S})
+		\item \textbf{Función solución}: Cuando el conjunto de candidatos esté vacío y aún tengamos fertilizante.
+		\item \textbf{Función factibilidad:} No habrá una solución, si dentro del intervalo R no hay un candidato que elegir.
+		\item \textbf{Función selección}: Se seleccionará el día más lejado de los posibles candidatos.
+		\item \textbf{Función objetivo}: Lista con los días que el granjero irá a la tienda.		
+	\end{itemize}
+	
+\end{frame}
+
+\section{Pseudocodigo}
+\begin{frame}
+	\frametitle{Pseudocódigo I}
+	Selección
+
+	\begin{algorithmic}
+	\Require Conjunto de candidatos C
+	\State {x=0}
+	\For {i = 1 to len(C)}
+		\If{ c\_i - c\_dia\_actual menor que R }
+ 	   		\State{x = c\_i}
+		\EndIf
+	\EndFor  
+	
+	\Return x	
+	\end{algorithmic}	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Pseudocódigo II}
+
+	Factibilidad
+	\begin{algorithmic}
+
+	\Require Candidato c
+	
+\If{ c\_dia\_actual == c }
+ 	   		
+ 	   		\Return False
+ 	   	\Else 
+ 	   	
+ 	   		\Return True 	   	
+ 	   	\EndIf
+ 	 
+  	
+		\end{algorithmic}	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Pseudocódigo III}
+	\begin{algorithmic}
+	\Require Conjunto de candidatos C
+	
+ 	\State{S = 0}
+
+	\While {S no sea una solución y C != 0 }
+ 	   \State{x = seleccion (C) }
+ 	   \State{C = C - {x}}
+  	   \If{factible({x})}
+  	   		\State{S = S + {x}}
+  	   	\EndIf
+	\EndWhile
+	\end{algorithmic}	
+	
+\end{frame}
+
+%------------------------------------------------
+\section{Demostración} 
+\begin{frame}
+	\frametitle{Demostración}
+	Harémos la demostración por reducción al absurdo:
+	
+	Sea $ L = g_0 < g_1 < ... < g_p $ el conjunto de días seleccionados por el algoritmo Greedy que \textbf{NO} es óptimo.\\
+	
+	Sea $ L_{op} = f_0 < f_1 < ... < f_p $ una de la soluciones óptimas del problema.\\
+	
+	Sea $r$ el máximo valor posible hasta donde L y $L_{op}$ coinciden, es decir, $f_0=g:0, f_1=g_1,...,f_r = g_r$.\\
+	Entonces, $g(r+1) > f(r+1)$ \\
+	Por lo que $g_0 < ... < g_r < g(r+1) < f(r+2) < f_q $ es otra solución al problema. 
+	
+	Si f llega un momento que se separa de g querrá decir que el número de días será mayor o igual.\\
+	Por lo que alcanzamos una contradicción, ya que $r$  no sería el máximo valor donde $L$ y $L_{op}$ siguen siendo iguales.
+\end{frame}
+
+
+\end{document} 

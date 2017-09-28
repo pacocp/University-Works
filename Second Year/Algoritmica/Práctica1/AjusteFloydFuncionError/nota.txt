@@ -1,0 +1,2 @@
+Realizo la hibrida con una funcion que no corresponde al algoritmo Floyd
+en este caso n*log(n)

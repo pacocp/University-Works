@@ -1,0 +1,26 @@
+----Static
+defecto
+chunk 1
+chunk 64
+omp_get_schedule: kind 1, modifier 64 
+Tiempo(seg.):0.064271288	 / Tamaño:15360	/ V2[0]=61440.000000 V2[15359]=4.000000
+----Dynamic
+defecto
+omp_get_schedule: kind 2, modifier 1 
+Tiempo(seg.):0.073123300	 / Tamaño:15360	/ V2[0]=61440.000000 V2[15359]=4.000000
+chunk 1
+omp_get_schedule: kind 2, modifier 1 
+Tiempo(seg.):0.073465009	 / Tamaño:15360	/ V2[0]=61440.000000 V2[15359]=4.000000
+chunk 64
+omp_get_schedule: kind 2, modifier 64 
+Tiempo(seg.):0.064011190	 / Tamaño:15360	/ V2[0]=61440.000000 V2[15359]=4.000000
+----Guided
+defecto
+omp_get_schedule: kind 3, modifier 1 
+Tiempo(seg.):0.064146855	 / Tamaño:15360	/ V2[0]=61440.000000 V2[15359]=4.000000
+chunk 1
+omp_get_schedule: kind 3, modifier 1 
+Tiempo(seg.):0.065221889	 / Tamaño:15360	/ V2[0]=61440.000000 V2[15359]=4.000000
+chunk 64
+omp_get_schedule: kind 3, modifier 64 
+Tiempo(seg.):0.064171741	 / Tamaño:15360	/ V2[0]=61440.000000 V2[15359]=4.000000

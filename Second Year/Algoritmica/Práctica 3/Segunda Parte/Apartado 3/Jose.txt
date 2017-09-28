@@ -1,0 +1,6 @@
+Referencia: 
+https://louisville.edu/speed/faculty/sheragu/Research/Intelligent/tsp.PDF
+
+Compilacion: g++ v_comercio_2_opt_greddy.cpp -o v_comercio_2_opt_greddy 
+
+Uso: ./v_comercio_2_opt_greddy datosTSP/a280.tsp 

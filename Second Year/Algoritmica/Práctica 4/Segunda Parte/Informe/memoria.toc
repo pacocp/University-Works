@@ -1,0 +1,7 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}
+\contentsline {section}{\numberline {2}Dise\IeC {\~n}o del algoritmo: Branch and Bound}{3}
+\contentsline {section}{\numberline {3}Pseudoc\IeC {\'o}digo}{3}
+\contentsline {section}{\numberline {4}Dise\IeC {\~n}o del algoritmo: Backtracking}{3}
+\contentsline {section}{\numberline {5}Pseudoc\IeC {\'o}digo}{3}
+\contentsline {section}{\numberline {6}Comparaci\IeC {\'o}n}{4}

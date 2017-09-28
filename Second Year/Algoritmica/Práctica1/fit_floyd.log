@@ -1,0 +1,58 @@
+
+
+*******************************************************************************
+Sat Mar 12 00:26:12 2016
+
+
+FIT:    data read from "salidafloyd.dat"
+        format = z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat Mar 12 00:26:27 2016
+
+
+FIT:    data read from "salidafloyd.dat"
+        format = z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Sat Mar 12 00:26:56 2016
+
+
+FIT:    data read from "salidafloyd.dat"
+        format = z
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x**3
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0           
+   0 3.7499659431e+18   0.00e+00  5.84e+08    1.000000e+00
+   5 1.7538362111e-02  -8.36e-08  5.84e+03    7.590681e-09
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.0175384
+rel. change during last iteration : -8.36385e-13
+
+degrees of freedom    (FIT_NDF)                        : 10
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0418788
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00175384
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 7.59068e-09      +/- 2.163e-11    (0.2849%)

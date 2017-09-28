@@ -1,0 +1,12 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}
+\contentsline {section}{\numberline {2}Resoluci\IeC {\'o}n del problema}{3}
+\contentsline {section}{\numberline {3}Elementos de la soluci\IeC {\'o}n al problema}{3}
+\contentsline {subsection}{\numberline {3.1}Conjunto de candidatos}{3}
+\contentsline {subsection}{\numberline {3.2}Conjunto de seleccionados}{3}
+\contentsline {subsection}{\numberline {3.3}Funci\IeC {\'o}n soluci\IeC {\'o}n}{3}
+\contentsline {subsection}{\numberline {3.4}Funci\IeC {\'o}n de factibilidad}{3}
+\contentsline {subsection}{\numberline {3.5}Funci\IeC {\'o}n selecci\IeC {\'o}n}{3}
+\contentsline {subsection}{\numberline {3.6}Funci\IeC {\'o}n objetivo}{3}
+\contentsline {section}{\numberline {4}Demostraci\IeC {\'o}n que encuentra siempre la soluci\IeC {\'o}n \IeC {\'o}ptima}{4}
+\contentsline {section}{\numberline {5}Pseudoc\IeC {\'o}digo}{4}

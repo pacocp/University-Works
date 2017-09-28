@@ -1,0 +1,65 @@
+************************************************
+*Alumno: Francisco Carrillo Pérez              *
+*Grupo: B1                                     *
+************************************************
+
+///////////////////////////////////////////////
+
+************************************************
+*     Productor-Consumidor-MPI                 *
+************************************************
+
+En este caso, tenemos tres funciones, productor,consumir y buffer.
+
+Tengo varios define que voy a ir utilizando para el envío de mensajes:
+#define Productor 0
+#define Buffer 1
+#define Consumidor 2
+#define ITERS 20
+#define TAM 10
+#define Nbuffer 5
+
+-El productor hace un Ssend al buffer con su respectivo tag, con el Ssend espera a que haga el recv el buffer. Esto dentro de un for con el número de ITERS. 
+
+-El consumidor hace un Ssend al buffer con su respectivo tag, para esperar a que el buffer lo reciva y le envíe al consumidor, que tiene su respectivo recv, para mostrar por pantalla que lo ha recibido.
+
+-En el buffer tenemos un for que tiene que hacer el número de iteraciones totales, que viene dado por la suma de las iteraciones del productor(20) y del consumidor (25), como tenemos 5 productores son 100 iteraciones, y como tenemos 4 consumidores son 100 iteraciones, entonces el for del buffer debe dar ITERS*2*5 = 200 iteraciones. En el caso de que se pueda consumir o producir hacemos un Probe que compruebe cual es el source que nos están mandando. Si el source es menor que 5 es que es un productor, esi es al contrario, es un consumidor. En el caso de que sea un consurmir, tenemos un Recv, con tag Productor, y hacemos pos++, en cambio si es consumidor, hacemos un Recv con el tag del Consumidor y luego un Ssend para que, como hemos visto antes, reciva un daro el consumidor, y hacemos pos--. 
+
+
+////////////////////////////////////////////////
+
+************************************************
+*     Filosofos-MPI                            *
+************************************************
+
+En este caso tenemos dos funciones Filosofo y Tenedor.
+
+Tengo estos define que voy a utilizar para el paso de mensajes:
+#define vFilosofo 0
+#define vTenedor 1
+
+-Para resolver el problema de interbloqueo que podía surgir, he hecho que el primer filósofo empiece al contrario que el resto de filósofos,y con un Ssend comience solicitando el tenedor derecho, y luego el izquierdo. El resto de los filósofos comienzan solicitando primero el tenedor izquierdo y luego el derecho. Luego hago que suelten los tenedores también al contrario con un Recv.
+
+-El tenedor espera con un probe a recibir una solicitud desde cualquier filósofo vecino y guarda el source en una variable llamada Filo.Despúes con un Recv, recibe la petición del filósofo y con un Ssend espera a que ek filósofo suelte el tenedor.
+
+/////////////////////////////////////////////////
+
+************************************************
+*     Filosofos-Camarero-MPI                   *
+************************************************
+
+En este caso tengo tres funciones Filosofo, Tenedor y Camarero.
+
+Tengo estos defince que voy a utilizar para el paso de mensajes:
+#define vFilosofo 0
+#define vTenedor 1
+#define SENTARSE 'T'
+#define LEVANTARSE 'L'
+
+-Como sólo puedo tener 4 filósofos sentados en la mesa, tengo una variable entera filosofos_comiendo para llevar la cuenta de cuantos hay comiendo en la mesa.
+
+- La función Tenedor es la misma que en el programa anterior.
+
+- La función Filosofo,cambia.Ya en este caso no necesito no necesito preocuparme del interbloqueo porque sólo voy a tener como mucho, 4 filósofos comiendo a la vez. Entonces a los Recv y Ssend anterior a la Función tenedor, tengo que añadir dos Ssend a la función Camarero con el Tag LEVANTARSE y SENTARSE para poder sentarse y sentarse.
+
+-La función Camarero tiene al inicio un Probe para guardar en la variable Filo, el source que recibe, si el status.MPI_TAG==SENTARSE y además hay menos de 4 filosofos_comiendo, hay un Recv para una petición de un filósofo y la variable filosofos_comiendo se aumenta en 1. En caso contrario, que no se cumpla alguna de las dos condiciones, hay un else, con un RECV al camarero de un filósofo para levantarse, y disminuyo en 1 filosofos_comiendo.

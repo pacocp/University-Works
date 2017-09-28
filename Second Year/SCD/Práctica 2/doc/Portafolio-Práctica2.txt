@@ -1,0 +1,47 @@
+Alumno: Francisco Carrillo Pérez
+
+Grupo: B1
+***********************************************
+*    Barbero                                  *
+***********************************************
+En este caso he utilizado tres condiciones y un boleano:
+
+barbero: Condicionón para el barbero
+
+sala: Condición para los clientes
+
+silla: Condición que nos dice si un cliente puede sentarse
+
+cortando: Boleano que nos indica si se está cortando el pelo un cliente
+
+Dentro de la función cortarPelo primero comprobamos si cortando == true y si la sala no está vacía, en ese caso 
+hacemos que la condición sala espere. Después le damos paso al barbero y hacemos la silla(ocupada ahora) espere.
+
+Dentro de la función siguienteCliente comprobamos si la sala está vacía, en el caso de que lo esté el barbero
+espera ("duerme"). Si después se comprueba que no está cortando se da paso a sala.
+
+Dentro de la función finCliente comprobamos si se está cortando el pelo, si es así cortando se pone a false, y
+le hacemos un signal a la silla para que pueda sentarse otro cliente
+
+*****************************************
+*  Fumadores                            *
+*****************************************
+
+En este caso utilizo un boleano, una condición y un vector de condiciones:
+
+enlamesa: Boleano que nos indica si hay algún ingrediente en la mesa.
+
+estanquero: Condición para el estanquero
+
+fumador: array de los fumadores de tamaño 3
+
+Dentro de la función obtenerIngrediente a la cuál le paso un entero que me sirve
+como índice. Dependiendo del ingrediente que le pase actuará un fumador o otro. Si hay
+un ingrediente en la mesa la condición de ese fumador espera. Después pone el boleano en la mesa
+a false y le da paso al estanquero.
+
+Dentro de la función ponerIngrediente a la cuál le paso también un entero que me sirve como índice,
+pasa algo parecido a la función anterior, dependiendo del índice le doy paso a un fumador y a otro.
+
+Dentro de la función esperarRecogidaIngrediente hago esperar a la condición estanquero si hay
+un ingrediente en la mesa 

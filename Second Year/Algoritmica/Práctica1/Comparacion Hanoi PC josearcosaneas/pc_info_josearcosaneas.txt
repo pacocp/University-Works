@@ -1,0 +1,6 @@
+Datos del PC de josearcosaneas:
+
+Procesador (frecuencia): Intel(R) Core(TM) i5-3470 CPU  3.20GHz x 4
+Memoria RAM: 8 GB
+Disco duro: SSD 500 GB
+S.O: Kali GNU/Linux Rolling 64-bit

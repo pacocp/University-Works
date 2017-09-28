@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n }{3}{0}{1}
+\beamer@sectionintoc {2}{Primera versi\IeC {\'o}n}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Dise\IeC {\~n}o del algoritmo}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Pseudocodigo}{6}{0}{2}
+\beamer@sectionintoc {3}{Segunda versi\IeC {\'o}n}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Dise\IeC {\~n}o del algoritmo}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Pseudoc\IeC {\'o}digo}{9}{0}{3}
+\beamer@sectionintoc {4}{Tercera versi\IeC {\'o}n}{10}{0}{4}
+\beamer@subsectionintoc {4}{1}{Dise\IeC {\~n}o del algoritmo}{11}{0}{4}
+\beamer@subsectionintoc {4}{2}{Pseudoc\IeC {\'o}digo}{12}{0}{4}
+\beamer@sectionintoc {5}{Comparaci\IeC {\'o}n}{13}{0}{5}

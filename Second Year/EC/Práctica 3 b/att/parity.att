@@ -1,0 +1,1116 @@
+
+parity:     file format elf32-i386
+
+
+Disassembly of section .init:
+
+08048a7c <_init>:
+ 8048a7c:	55                   	push   %ebp
+ 8048a7d:	89 e5                	mov    %esp,%ebp
+ 8048a7f:	53                   	push   %ebx
+ 8048a80:	83 ec 04             	sub    $0x4,%esp
+ 8048a83:	e8 00 00 00 00       	call   8048a88 <_init+0xc>
+ 8048a88:	5b                   	pop    %ebx
+ 8048a89:	81 c3 90 21 00 00    	add    $0x2190,%ebx
+ 8048a8f:	8b 93 fc ff ff ff    	mov    -0x4(%ebx),%edx
+ 8048a95:	85 d2                	test   %edx,%edx
+ 8048a97:	74 05                	je     8048a9e <_init+0x22>
+ 8048a99:	e8 62 00 00 00       	call   8048b00 <__gmon_start__@plt>
+ 8048a9e:	58                   	pop    %eax
+ 8048a9f:	5b                   	pop    %ebx
+ 8048aa0:	c9                   	leave  
+ 8048aa1:	c3                   	ret    
+
+Disassembly of section .plt:
+
+08048ab0 <__cxa_atexit@plt-0x10>:
+ 8048ab0:	ff 35 1c ac 04 08    	pushl  0x804ac1c
+ 8048ab6:	ff 25 20 ac 04 08    	jmp    *0x804ac20
+ 8048abc:	00 00                	add    %al,(%eax)
+	...
+
+08048ac0 <__cxa_atexit@plt>:
+ 8048ac0:	ff 25 24 ac 04 08    	jmp    *0x804ac24
+ 8048ac6:	68 00 00 00 00       	push   $0x0
+ 8048acb:	e9 e0 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048ad0 <std::__throw_runtime_error(char const*)@plt>:
+ 8048ad0:	ff 25 28 ac 04 08    	jmp    *0x804ac28
+ 8048ad6:	68 08 00 00 00       	push   $0x8
+ 8048adb:	e9 d0 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048ae0 <std::__throw_bad_cast()@plt>:
+ 8048ae0:	ff 25 2c ac 04 08    	jmp    *0x804ac2c
+ 8048ae6:	68 10 00 00 00       	push   $0x10
+ 8048aeb:	e9 c0 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048af0 <__divdi3@plt>:
+ 8048af0:	ff 25 30 ac 04 08    	jmp    *0x804ac30
+ 8048af6:	68 18 00 00 00       	push   $0x18
+ 8048afb:	e9 b0 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048b00 <__gmon_start__@plt>:
+ 8048b00:	ff 25 34 ac 04 08    	jmp    *0x804ac34
+ 8048b06:	68 20 00 00 00       	push   $0x20
+ 8048b0b:	e9 a0 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048b10 <std::ctype<char>::_M_widen_init() const@plt>:
+ 8048b10:	ff 25 38 ac 04 08    	jmp    *0x804ac38
+ 8048b16:	68 28 00 00 00       	push   $0x28
+ 8048b1b:	e9 90 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048b20 <std::ios_base::Init::Init()@plt>:
+ 8048b20:	ff 25 3c ac 04 08    	jmp    *0x804ac3c
+ 8048b26:	68 30 00 00 00       	push   $0x30
+ 8048b2b:	e9 80 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048b30 <__libc_start_main@plt>:
+ 8048b30:	ff 25 40 ac 04 08    	jmp    *0x804ac40
+ 8048b36:	68 38 00 00 00       	push   $0x38
+ 8048b3b:	e9 70 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048b40 <std::ios_base::Init::~Init()@plt>:
+ 8048b40:	ff 25 44 ac 04 08    	jmp    *0x804ac44
+ 8048b46:	68 40 00 00 00       	push   $0x40
+ 8048b4b:	e9 60 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048b50 <std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@plt>:
+ 8048b50:	ff 25 48 ac 04 08    	jmp    *0x804ac48
+ 8048b56:	68 48 00 00 00       	push   $0x48
+ 8048b5b:	e9 50 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048b60 <std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()@plt>:
+ 8048b60:	ff 25 4c ac 04 08    	jmp    *0x804ac4c
+ 8048b66:	68 50 00 00 00       	push   $0x50
+ 8048b6b:	e9 40 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048b70 <fclose@plt>:
+ 8048b70:	ff 25 50 ac 04 08    	jmp    *0x804ac50
+ 8048b76:	68 58 00 00 00       	push   $0x58
+ 8048b7b:	e9 30 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048b80 <strlen@plt>:
+ 8048b80:	ff 25 54 ac 04 08    	jmp    *0x804ac54
+ 8048b86:	68 60 00 00 00       	push   $0x60
+ 8048b8b:	e9 20 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048b90 <fopen@plt>:
+ 8048b90:	ff 25 58 ac 04 08    	jmp    *0x804ac58
+ 8048b96:	68 68 00 00 00       	push   $0x68
+ 8048b9b:	e9 10 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048ba0 <std::string::compare(char const*) const@plt>:
+ 8048ba0:	ff 25 5c ac 04 08    	jmp    *0x804ac5c
+ 8048ba6:	68 70 00 00 00       	push   $0x70
+ 8048bab:	e9 00 ff ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048bb0 <std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)@plt>:
+ 8048bb0:	ff 25 60 ac 04 08    	jmp    *0x804ac60
+ 8048bb6:	68 78 00 00 00       	push   $0x78
+ 8048bbb:	e9 f0 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048bc0 <std::chrono::system_clock::now()@plt>:
+ 8048bc0:	ff 25 64 ac 04 08    	jmp    *0x804ac64
+ 8048bc6:	68 80 00 00 00       	push   $0x80
+ 8048bcb:	e9 e0 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048bd0 <std::ostream& std::ostream::_M_insert<unsigned long long>(unsigned long long)@plt>:
+ 8048bd0:	ff 25 68 ac 04 08    	jmp    *0x804ac68
+ 8048bd6:	68 88 00 00 00       	push   $0x88
+ 8048bdb:	e9 d0 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048be0 <std::ostream::flush()@plt>:
+ 8048be0:	ff 25 6c ac 04 08    	jmp    *0x804ac6c
+ 8048be6:	68 90 00 00 00       	push   $0x90
+ 8048beb:	e9 c0 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048bf0 <std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)@plt>:
+ 8048bf0:	ff 25 70 ac 04 08    	jmp    *0x804ac70
+ 8048bf6:	68 98 00 00 00       	push   $0x98
+ 8048bfb:	e9 b0 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048c00 <std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long)@plt>:
+ 8048c00:	ff 25 74 ac 04 08    	jmp    *0x804ac74
+ 8048c06:	68 a0 00 00 00       	push   $0xa0
+ 8048c0b:	e9 a0 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048c10 <std::ostream& std::ostream::_M_insert<double>(double)@plt>:
+ 8048c10:	ff 25 78 ac 04 08    	jmp    *0x804ac78
+ 8048c16:	68 a8 00 00 00       	push   $0xa8
+ 8048c1b:	e9 90 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048c20 <std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)@plt>:
+ 8048c20:	ff 25 7c ac 04 08    	jmp    *0x804ac7c
+ 8048c26:	68 b0 00 00 00       	push   $0xb0
+ 8048c2b:	e9 80 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048c30 <fread@plt>:
+ 8048c30:	ff 25 80 ac 04 08    	jmp    *0x804ac80
+ 8048c36:	68 b8 00 00 00       	push   $0xb8
+ 8048c3b:	e9 70 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048c40 <__gxx_personality_v0@plt>:
+ 8048c40:	ff 25 84 ac 04 08    	jmp    *0x804ac84
+ 8048c46:	68 c0 00 00 00       	push   $0xc0
+ 8048c4b:	e9 60 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048c50 <_Unwind_Resume@plt>:
+ 8048c50:	ff 25 88 ac 04 08    	jmp    *0x804ac88
+ 8048c56:	68 c8 00 00 00       	push   $0xc8
+ 8048c5b:	e9 50 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048c60 <std::ostream::put(char)@plt>:
+ 8048c60:	ff 25 8c ac 04 08    	jmp    *0x804ac8c
+ 8048c66:	68 d0 00 00 00       	push   $0xd0
+ 8048c6b:	e9 40 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048c70 <std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, int)@plt>:
+ 8048c70:	ff 25 90 ac 04 08    	jmp    *0x804ac90
+ 8048c76:	68 d8 00 00 00       	push   $0xd8
+ 8048c7b:	e9 30 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+08048c80 <std::ostream& std::ostream::_M_insert<long long>(long long)@plt>:
+ 8048c80:	ff 25 94 ac 04 08    	jmp    *0x804ac94
+ 8048c86:	68 e0 00 00 00       	push   $0xe0
+ 8048c8b:	e9 20 fe ff ff       	jmp    8048ab0 <_init+0x34>
+
+Disassembly of section .text:
+
+08048c90 <main>:
+ 8048c90:	55                   	push   %ebp
+ 8048c91:	89 e5                	mov    %esp,%ebp
+ 8048c93:	57                   	push   %edi
+ 8048c94:	56                   	push   %esi
+ 8048c95:	53                   	push   %ebx
+ 8048c96:	83 e4 f0             	and    $0xfffffff0,%esp
+ 8048c99:	83 ec 40             	sub    $0x40,%esp
+ 8048c9c:	8d 44 24 23          	lea    0x23(%esp),%eax
+ 8048ca0:	8d 5c 24 24          	lea    0x24(%esp),%ebx
+ 8048ca4:	89 44 24 08          	mov    %eax,0x8(%esp)
+ 8048ca8:	c7 44 24 04 10 97 04 	movl   $0x8049710,0x4(%esp)
+ 8048caf:	08 
+ 8048cb0:	89 1c 24             	mov    %ebx,(%esp)
+ 8048cb3:	e8 f8 fe ff ff       	call   8048bb0 <std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&)@plt>
+ 8048cb8:	c7 44 24 04 10 97 04 	movl   $0x8049710,0x4(%esp)
+ 8048cbf:	08 
+ 8048cc0:	89 1c 24             	mov    %ebx,(%esp)
+ 8048cc3:	e8 d8 fe ff ff       	call   8048ba0 <std::string::compare(char const*) const@plt>
+ 8048cc8:	85 c0                	test   %eax,%eax
+ 8048cca:	74 18                	je     8048ce4 <main+0x54>
+ 8048ccc:	c7 44 24 04 20 97 04 	movl   $0x8049720,0x4(%esp)
+ 8048cd3:	08 
+ 8048cd4:	89 1c 24             	mov    %ebx,(%esp)
+ 8048cd7:	e8 c4 fe ff ff       	call   8048ba0 <std::string::compare(char const*) const@plt>
+ 8048cdc:	85 c0                	test   %eax,%eax
+ 8048cde:	0f 85 13 02 00 00    	jne    8048ef7 <main+0x267>
+ 8048ce4:	8b 44 24 24          	mov    0x24(%esp),%eax
+ 8048ce8:	c7 44 24 04 1d 97 04 	movl   $0x804971d,0x4(%esp)
+ 8048cef:	08 
+ 8048cf0:	89 04 24             	mov    %eax,(%esp)
+ 8048cf3:	e8 98 fe ff ff       	call   8048b90 <fopen@plt>
+ 8048cf8:	85 c0                	test   %eax,%eax
+ 8048cfa:	89 44 24 1c          	mov    %eax,0x1c(%esp)
+ 8048cfe:	0f 84 f3 01 00 00    	je     8048ef7 <main+0x267>
+ 8048d04:	89 1c 24             	mov    %ebx,(%esp)
+ 8048d07:	e8 54 fe ff ff       	call   8048b60 <std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()@plt>
+ 8048d0c:	8b 44 24 1c          	mov    0x1c(%esp),%eax
+ 8048d10:	c7 44 24 08 01 00 00 	movl   $0x1,0x8(%esp)
+ 8048d17:	00 
+ 8048d18:	c7 44 24 04 04 00 00 	movl   $0x4,0x4(%esp)
+ 8048d1f:	00 
+ 8048d20:	89 44 24 0c          	mov    %eax,0xc(%esp)
+ 8048d24:	8d 44 24 28          	lea    0x28(%esp),%eax
+ 8048d28:	89 04 24             	mov    %eax,(%esp)
+ 8048d2b:	e8 00 ff ff ff       	call   8048c30 <fread@plt>
+ 8048d30:	8b 4c 24 28          	mov    0x28(%esp),%ecx
+ 8048d34:	ba 03 00 00 00       	mov    $0x3,%edx
+ 8048d39:	89 c8                	mov    %ecx,%eax
+ 8048d3b:	f7 e2                	mul    %edx
+ 8048d3d:	89 c8                	mov    %ecx,%eax
+ 8048d3f:	29 d0                	sub    %edx,%eax
+ 8048d41:	d1 e8                	shr    %eax
+ 8048d43:	01 c2                	add    %eax,%edx
+ 8048d45:	c1 ea 1e             	shr    $0x1e,%edx
+ 8048d48:	89 d0                	mov    %edx,%eax
+ 8048d4a:	c1 e0 1f             	shl    $0x1f,%eax
+ 8048d4d:	29 d0                	sub    %edx,%eax
+ 8048d4f:	89 ca                	mov    %ecx,%edx
+ 8048d51:	29 c2                	sub    %eax,%edx
+ 8048d53:	75 05                	jne    8048d5a <main+0xca>
+ 8048d55:	ba 01 00 00 00       	mov    $0x1,%edx
+ 8048d5a:	c7 44 24 34 00 00 00 	movl   $0x0,0x34(%esp)
+ 8048d61:	00 
+ 8048d62:	bb 40 ad 04 08       	mov    $0x804ad40,%ebx
+ 8048d67:	c7 44 24 38 ff ff ff 	movl   $0xffffffff,0x38(%esp)
+ 8048d6e:	ff 
+ 8048d6f:	8d 7c 24 2c          	lea    0x2c(%esp),%edi
+ 8048d73:	89 54 24 3c          	mov    %edx,0x3c(%esp)
+ 8048d77:	8d 74 24 34          	lea    0x34(%esp),%esi
+ 8048d7b:	90                   	nop
+ 8048d7c:	8d 74 26 00          	lea    0x0(%esi,%eiz,1),%esi
+ 8048d80:	8b 44 24 34          	mov    0x34(%esp),%eax
+ 8048d84:	8b 54 24 38          	mov    0x38(%esp),%edx
+ 8048d88:	89 7c 24 08          	mov    %edi,0x8(%esp)
+ 8048d8c:	89 34 24             	mov    %esi,(%esp)
+ 8048d8f:	89 44 24 2c          	mov    %eax,0x2c(%esp)
+ 8048d93:	8d 44 24 3c          	lea    0x3c(%esp),%eax
+ 8048d97:	89 44 24 04          	mov    %eax,0x4(%esp)
+ 8048d9b:	89 54 24 30          	mov    %edx,0x30(%esp)
+ 8048d9f:	e8 5c 07 00 00       	call   8049500 <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)>
+ 8048da4:	89 03                	mov    %eax,(%ebx)
+ 8048da6:	83 c3 04             	add    $0x4,%ebx
+ 8048da9:	81 fb 40 ad 44 08    	cmp    $0x844ad40,%ebx
+ 8048daf:	75 cf                	jne    8048d80 <main+0xf0>
+ 8048db1:	c7 44 24 04 2c 97 04 	movl   $0x804972c,0x4(%esp)
+ 8048db8:	08 
+ 8048db9:	c7 04 24 a0 ac 04 08 	movl   $0x804aca0,(%esp)
+ 8048dc0:	e8 8b fd ff ff       	call   8048b50 <std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@plt>
+ 8048dc5:	8b 10                	mov    (%eax),%edx
+ 8048dc7:	8b 52 f4             	mov    -0xc(%edx),%edx
+ 8048dca:	c7 44 10 08 0c 00 00 	movl   $0xc,0x8(%eax,%edx,1)
+ 8048dd1:	00 
+ 8048dd2:	c7 44 24 04 31 97 04 	movl   $0x8049731,0x4(%esp)
+ 8048dd9:	08 
+ 8048dda:	89 04 24             	mov    %eax,(%esp)
+ 8048ddd:	e8 6e fd ff ff       	call   8048b50 <std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@plt>
+ 8048de2:	8b 10                	mov    (%eax),%edx
+ 8048de4:	8b 52 f4             	mov    -0xc(%edx),%edx
+ 8048de7:	c7 44 10 08 0c 00 00 	movl   $0xc,0x8(%eax,%edx,1)
+ 8048dee:	00 
+ 8048def:	c7 44 24 04 36 97 04 	movl   $0x8049736,0x4(%esp)
+ 8048df6:	08 
+ 8048df7:	89 04 24             	mov    %eax,(%esp)
+ 8048dfa:	e8 51 fd ff ff       	call   8048b50 <std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@plt>
+ 8048dff:	8b 10                	mov    (%eax),%edx
+ 8048e01:	8b 52 f4             	mov    -0xc(%edx),%edx
+ 8048e04:	c7 44 10 08 0c 00 00 	movl   $0xc,0x8(%eax,%edx,1)
+ 8048e0b:	00 
+ 8048e0c:	c7 44 24 04 3d 97 04 	movl   $0x804973d,0x4(%esp)
+ 8048e13:	08 
+ 8048e14:	89 04 24             	mov    %eax,(%esp)
+ 8048e17:	e8 34 fd ff ff       	call   8048b50 <std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@plt>
+ 8048e1c:	8b 10                	mov    (%eax),%edx
+ 8048e1e:	8b 52 f4             	mov    -0xc(%edx),%edx
+ 8048e21:	c7 44 10 08 0c 00 00 	movl   $0xc,0x8(%eax,%edx,1)
+ 8048e28:	00 
+ 8048e29:	c7 44 24 04 46 97 04 	movl   $0x8049746,0x4(%esp)
+ 8048e30:	08 
+ 8048e31:	89 04 24             	mov    %eax,(%esp)
+ 8048e34:	e8 17 fd ff ff       	call   8048b50 <std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@plt>
+ 8048e39:	89 04 24             	mov    %eax,(%esp)
+ 8048e3c:	e8 df fd ff ff       	call   8048c20 <std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)@plt>
+ 8048e41:	c7 44 24 04 50 97 04 	movl   $0x8049750,0x4(%esp)
+ 8048e48:	08 
+ 8048e49:	c7 04 24 50 90 04 08 	movl   $0x8049050,(%esp)
+ 8048e50:	e8 3b 03 00 00       	call   8049190 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)>
+ 8048e55:	c7 44 24 04 63 97 04 	movl   $0x8049763,0x4(%esp)
+ 8048e5c:	08 
+ 8048e5d:	c7 04 24 90 90 04 08 	movl   $0x8049090,(%esp)
+ 8048e64:	e8 27 03 00 00       	call   8049190 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)>
+ 8048e69:	c7 44 24 04 76 97 04 	movl   $0x8049776,0x4(%esp)
+ 8048e70:	08 
+ 8048e71:	c7 04 24 b0 90 04 08 	movl   $0x80490b0,(%esp)
+ 8048e78:	e8 13 03 00 00       	call   8049190 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)>
+ 8048e7d:	c7 44 24 04 89 97 04 	movl   $0x8049789,0x4(%esp)
+ 8048e84:	08 
+ 8048e85:	c7 04 24 d0 90 04 08 	movl   $0x80490d0,(%esp)
+ 8048e8c:	e8 ff 02 00 00       	call   8049190 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)>
+ 8048e91:	c7 44 24 04 9c 97 04 	movl   $0x804979c,0x4(%esp)
+ 8048e98:	08 
+ 8048e99:	c7 04 24 f0 90 04 08 	movl   $0x80490f0,(%esp)
+ 8048ea0:	e8 eb 02 00 00       	call   8049190 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)>
+ 8048ea5:	c7 44 24 04 af 97 04 	movl   $0x80497af,0x4(%esp)
+ 8048eac:	08 
+ 8048ead:	c7 04 24 20 91 04 08 	movl   $0x8049120,(%esp)
+ 8048eb4:	e8 d7 02 00 00       	call   8049190 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)>
+ 8048eb9:	c7 44 24 04 c2 97 04 	movl   $0x80497c2,0x4(%esp)
+ 8048ec0:	08 
+ 8048ec1:	c7 04 24 50 91 04 08 	movl   $0x8049150,(%esp)
+ 8048ec8:	e8 c3 02 00 00       	call   8049190 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)>
+ 8048ecd:	c7 44 24 04 d5 97 04 	movl   $0x80497d5,0x4(%esp)
+ 8048ed4:	08 
+ 8048ed5:	c7 04 24 80 91 04 08 	movl   $0x8049180,(%esp)
+ 8048edc:	e8 af 02 00 00       	call   8049190 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)>
+ 8048ee1:	8b 44 24 1c          	mov    0x1c(%esp),%eax
+ 8048ee5:	89 04 24             	mov    %eax,(%esp)
+ 8048ee8:	e8 83 fc ff ff       	call   8048b70 <fclose@plt>
+ 8048eed:	8d 65 f4             	lea    -0xc(%ebp),%esp
+ 8048ef0:	31 c0                	xor    %eax,%eax
+ 8048ef2:	5b                   	pop    %ebx
+ 8048ef3:	5e                   	pop    %esi
+ 8048ef4:	5f                   	pop    %edi
+ 8048ef5:	5d                   	pop    %ebp
+ 8048ef6:	c3                   	ret    
+ 8048ef7:	c7 04 24 e8 97 04 08 	movl   $0x80497e8,(%esp)
+ 8048efe:	e8 cd fb ff ff       	call   8048ad0 <std::__throw_runtime_error(char const*)@plt>
+ 8048f03:	89 c6                	mov    %eax,%esi
+ 8048f05:	89 1c 24             	mov    %ebx,(%esp)
+ 8048f08:	e8 53 fc ff ff       	call   8048b60 <std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()@plt>
+ 8048f0d:	89 34 24             	mov    %esi,(%esp)
+ 8048f10:	e8 3b fd ff ff       	call   8048c50 <_Unwind_Resume@plt>
+ 8048f15:	89 c3                	mov    %eax,%ebx
+ 8048f17:	8b 44 24 1c          	mov    0x1c(%esp),%eax
+ 8048f1b:	89 04 24             	mov    %eax,(%esp)
+ 8048f1e:	e8 4d fc ff ff       	call   8048b70 <fclose@plt>
+ 8048f23:	89 1c 24             	mov    %ebx,(%esp)
+ 8048f26:	e8 25 fd ff ff       	call   8048c50 <_Unwind_Resume@plt>
+ 8048f2b:	90                   	nop
+ 8048f2c:	8d 74 26 00          	lea    0x0(%esi,%eiz,1),%esi
+
+08048f30 <_GLOBAL__sub_I_list>:
+ 8048f30:	55                   	push   %ebp
+ 8048f31:	89 e5                	mov    %esp,%ebp
+ 8048f33:	83 ec 18             	sub    $0x18,%esp
+ 8048f36:	c7 04 24 40 ad 44 08 	movl   $0x844ad40,(%esp)
+ 8048f3d:	e8 de fb ff ff       	call   8048b20 <std::ios_base::Init::Init()@plt>
+ 8048f42:	c7 44 24 08 9c ac 04 	movl   $0x804ac9c,0x8(%esp)
+ 8048f49:	08 
+ 8048f4a:	c7 44 24 04 40 ad 44 	movl   $0x844ad40,0x4(%esp)
+ 8048f51:	08 
+ 8048f52:	c7 04 24 40 8b 04 08 	movl   $0x8048b40,(%esp)
+ 8048f59:	e8 62 fb ff ff       	call   8048ac0 <__cxa_atexit@plt>
+ 8048f5e:	c9                   	leave  
+ 8048f5f:	c3                   	ret    
+
+08048f60 <_start>:
+ 8048f60:	31 ed                	xor    %ebp,%ebp
+ 8048f62:	5e                   	pop    %esi
+ 8048f63:	89 e1                	mov    %esp,%ecx
+ 8048f65:	83 e4 f0             	and    $0xfffffff0,%esp
+ 8048f68:	50                   	push   %eax
+ 8048f69:	54                   	push   %esp
+ 8048f6a:	52                   	push   %edx
+ 8048f6b:	68 80 96 04 08       	push   $0x8049680
+ 8048f70:	68 90 96 04 08       	push   $0x8049690
+ 8048f75:	51                   	push   %ecx
+ 8048f76:	56                   	push   %esi
+ 8048f77:	68 90 8c 04 08       	push   $0x8048c90
+ 8048f7c:	e8 af fb ff ff       	call   8048b30 <__libc_start_main@plt>
+ 8048f81:	f4                   	hlt    
+ 8048f82:	90                   	nop
+ 8048f83:	90                   	nop
+ 8048f84:	90                   	nop
+ 8048f85:	90                   	nop
+ 8048f86:	90                   	nop
+ 8048f87:	90                   	nop
+ 8048f88:	90                   	nop
+ 8048f89:	90                   	nop
+ 8048f8a:	90                   	nop
+ 8048f8b:	90                   	nop
+ 8048f8c:	90                   	nop
+ 8048f8d:	90                   	nop
+ 8048f8e:	90                   	nop
+ 8048f8f:	90                   	nop
+
+08048f90 <deregister_tm_clones>:
+ 8048f90:	b8 a3 ac 04 08       	mov    $0x804aca3,%eax
+ 8048f95:	2d a0 ac 04 08       	sub    $0x804aca0,%eax
+ 8048f9a:	83 f8 06             	cmp    $0x6,%eax
+ 8048f9d:	77 02                	ja     8048fa1 <deregister_tm_clones+0x11>
+ 8048f9f:	f3 c3                	repz ret 
+ 8048fa1:	b8 00 00 00 00       	mov    $0x0,%eax
+ 8048fa6:	85 c0                	test   %eax,%eax
+ 8048fa8:	74 f5                	je     8048f9f <deregister_tm_clones+0xf>
+ 8048faa:	55                   	push   %ebp
+ 8048fab:	89 e5                	mov    %esp,%ebp
+ 8048fad:	83 ec 18             	sub    $0x18,%esp
+ 8048fb0:	c7 04 24 a0 ac 04 08 	movl   $0x804aca0,(%esp)
+ 8048fb7:	ff d0                	call   *%eax
+ 8048fb9:	c9                   	leave  
+ 8048fba:	c3                   	ret    
+ 8048fbb:	90                   	nop
+ 8048fbc:	8d 74 26 00          	lea    0x0(%esi,%eiz,1),%esi
+
+08048fc0 <register_tm_clones>:
+ 8048fc0:	b8 a0 ac 04 08       	mov    $0x804aca0,%eax
+ 8048fc5:	2d a0 ac 04 08       	sub    $0x804aca0,%eax
+ 8048fca:	c1 f8 02             	sar    $0x2,%eax
+ 8048fcd:	89 c2                	mov    %eax,%edx
+ 8048fcf:	c1 ea 1f             	shr    $0x1f,%edx
+ 8048fd2:	01 d0                	add    %edx,%eax
+ 8048fd4:	d1 f8                	sar    %eax
+ 8048fd6:	75 02                	jne    8048fda <register_tm_clones+0x1a>
+ 8048fd8:	f3 c3                	repz ret 
+ 8048fda:	ba 00 00 00 00       	mov    $0x0,%edx
+ 8048fdf:	85 d2                	test   %edx,%edx
+ 8048fe1:	74 f5                	je     8048fd8 <register_tm_clones+0x18>
+ 8048fe3:	55                   	push   %ebp
+ 8048fe4:	89 e5                	mov    %esp,%ebp
+ 8048fe6:	83 ec 18             	sub    $0x18,%esp
+ 8048fe9:	89 44 24 04          	mov    %eax,0x4(%esp)
+ 8048fed:	c7 04 24 a0 ac 04 08 	movl   $0x804aca0,(%esp)
+ 8048ff4:	ff d2                	call   *%edx
+ 8048ff6:	c9                   	leave  
+ 8048ff7:	c3                   	ret    
+ 8048ff8:	90                   	nop
+ 8048ff9:	8d b4 26 00 00 00 00 	lea    0x0(%esi,%eiz,1),%esi
+
+08049000 <__do_global_dtors_aux>:
+ 8049000:	80 3d 2c ad 04 08 00 	cmpb   $0x0,0x804ad2c
+ 8049007:	75 13                	jne    804901c <__do_global_dtors_aux+0x1c>
+ 8049009:	55                   	push   %ebp
+ 804900a:	89 e5                	mov    %esp,%ebp
+ 804900c:	83 ec 08             	sub    $0x8,%esp
+ 804900f:	e8 7c ff ff ff       	call   8048f90 <deregister_tm_clones>
+ 8049014:	c6 05 2c ad 04 08 01 	movb   $0x1,0x804ad2c
+ 804901b:	c9                   	leave  
+ 804901c:	f3 c3                	repz ret 
+ 804901e:	66 90                	xchg   %ax,%ax
+
+08049020 <frame_dummy>:
+ 8049020:	a1 08 ab 04 08       	mov    0x804ab08,%eax
+ 8049025:	85 c0                	test   %eax,%eax
+ 8049027:	74 1e                	je     8049047 <frame_dummy+0x27>
+ 8049029:	b8 00 00 00 00       	mov    $0x0,%eax
+ 804902e:	85 c0                	test   %eax,%eax
+ 8049030:	74 15                	je     8049047 <frame_dummy+0x27>
+ 8049032:	55                   	push   %ebp
+ 8049033:	89 e5                	mov    %esp,%ebp
+ 8049035:	83 ec 18             	sub    $0x18,%esp
+ 8049038:	c7 04 24 08 ab 04 08 	movl   $0x804ab08,(%esp)
+ 804903f:	ff d0                	call   *%eax
+ 8049041:	c9                   	leave  
+ 8049042:	e9 79 ff ff ff       	jmp    8048fc0 <register_tm_clones>
+ 8049047:	e9 74 ff ff ff       	jmp    8048fc0 <register_tm_clones>
+ 804904c:	90                   	nop
+ 804904d:	90                   	nop
+ 804904e:	90                   	nop
+ 804904f:	90                   	nop
+
+08049050 <parity01(unsigned int)>:
+ 8049050:	55                   	push   %ebp
+ 8049051:	31 c9                	xor    %ecx,%ecx
+ 8049053:	89 e5                	mov    %esp,%ebp
+ 8049055:	b8 01 00 00 00       	mov    $0x1,%eax
+ 804905a:	56                   	push   %esi
+ 804905b:	8b 75 08             	mov    0x8(%ebp),%esi
+ 804905e:	53                   	push   %ebx
+ 804905f:	bb 01 00 00 00       	mov    $0x1,%ebx
+ 8049064:	8d 74 26 00          	lea    0x0(%esi,%eiz,1),%esi
+ 8049068:	89 da                	mov    %ebx,%edx
+ 804906a:	d3 e2                	shl    %cl,%edx
+ 804906c:	85 f2                	test   %esi,%edx
+ 804906e:	0f 95 c2             	setne  %dl
+ 8049071:	83 c1 01             	add    $0x1,%ecx
+ 8049074:	0f b6 d2             	movzbl %dl,%edx
+ 8049077:	31 d0                	xor    %edx,%eax
+ 8049079:	83 f9 20             	cmp    $0x20,%ecx
+ 804907c:	75 ea                	jne    8049068 <parity01(unsigned int)+0x18>
+ 804907e:	5b                   	pop    %ebx
+ 804907f:	5e                   	pop    %esi
+ 8049080:	5d                   	pop    %ebp
+ 8049081:	c3                   	ret    
+ 8049082:	8d b4 26 00 00 00 00 	lea    0x0(%esi,%eiz,1),%esi
+ 8049089:	8d bc 27 00 00 00 00 	lea    0x0(%edi,%eiz,1),%edi
+
+08049090 <parity02(unsigned int)>:
+ 8049090:	55                   	push   %ebp
+ 8049091:	b8 01 00 00 00       	mov    $0x1,%eax
+ 8049096:	89 e5                	mov    %esp,%ebp
+ 8049098:	8b 55 08             	mov    0x8(%ebp),%edx
+ 804909b:	90                   	nop
+ 804909c:	8d 74 26 00          	lea    0x0(%esi,%eiz,1),%esi
+ 80490a0:	89 d1                	mov    %edx,%ecx
+ 80490a2:	83 e1 01             	and    $0x1,%ecx
+ 80490a5:	31 c8                	xor    %ecx,%eax
+ 80490a7:	d1 ea                	shr    %edx
+ 80490a9:	75 f5                	jne    80490a0 <parity02(unsigned int)+0x10>
+ 80490ab:	5d                   	pop    %ebp
+ 80490ac:	c3                   	ret    
+ 80490ad:	8d 76 00             	lea    0x0(%esi),%esi
+
+080490b0 <parity03(unsigned int)>:
+ 80490b0:	55                   	push   %ebp
+ 80490b1:	b8 01 00 00 00       	mov    $0x1,%eax
+ 80490b6:	89 e5                	mov    %esp,%ebp
+ 80490b8:	8b 55 08             	mov    0x8(%ebp),%edx
+ 80490bb:	90                   	nop
+ 80490bc:	8d 74 26 00          	lea    0x0(%esi,%eiz,1),%esi
+ 80490c0:	29 d0                	sub    %edx,%eax
+ 80490c2:	d1 ea                	shr    %edx
+ 80490c4:	75 fa                	jne    80490c0 <parity03(unsigned int)+0x10>
+ 80490c6:	83 e0 01             	and    $0x1,%eax
+ 80490c9:	5d                   	pop    %ebp
+ 80490ca:	c3                   	ret    
+ 80490cb:	90                   	nop
+ 80490cc:	8d 74 26 00          	lea    0x0(%esi,%eiz,1),%esi
+
+080490d0 <parity04(unsigned int)>:
+ 80490d0:	55                   	push   %ebp
+ 80490d1:	b8 01 00 00 00       	mov    $0x1,%eax
+ 80490d6:	89 e5                	mov    %esp,%ebp
+ 80490d8:	8b 55 08             	mov    0x8(%ebp),%edx
+ 80490db:	5d                   	pop    %ebp
+
+080490dc <.bucle>:
+ 80490dc:	31 d0                	xor    %edx,%eax
+ 80490de:	d1 ea                	shr    %edx
+ 80490e0:	75 fa                	jne    80490dc <.bucle>
+ 80490e2:	83 e0 01             	and    $0x1,%eax
+ 80490e5:	c3                   	ret    
+ 80490e6:	8d 76 00             	lea    0x0(%esi),%esi
+ 80490e9:	8d bc 27 00 00 00 00 	lea    0x0(%edi,%eiz,1),%edi
+
+080490f0 <parity05(unsigned int)>:
+ 80490f0:	55                   	push   %ebp
+ 80490f1:	89 e5                	mov    %esp,%ebp
+ 80490f3:	8b 55 08             	mov    0x8(%ebp),%edx
+ 80490f6:	5d                   	pop    %ebp
+ 80490f7:	89 d0                	mov    %edx,%eax
+ 80490f9:	c1 e8 10             	shr    $0x10,%eax
+ 80490fc:	31 d0                	xor    %edx,%eax
+ 80490fe:	89 c2                	mov    %eax,%edx
+ 8049100:	c1 ea 08             	shr    $0x8,%edx
+ 8049103:	31 c2                	xor    %eax,%edx
+ 8049105:	89 d0                	mov    %edx,%eax
+ 8049107:	c1 e8 04             	shr    $0x4,%eax
+ 804910a:	31 d0                	xor    %edx,%eax
+ 804910c:	89 c2                	mov    %eax,%edx
+ 804910e:	c1 ea 02             	shr    $0x2,%edx
+ 8049111:	31 c2                	xor    %eax,%edx
+ 8049113:	89 d0                	mov    %edx,%eax
+ 8049115:	d1 e8                	shr    %eax
+ 8049117:	31 d0                	xor    %edx,%eax
+ 8049119:	83 e0 01             	and    $0x1,%eax
+ 804911c:	83 f0 01             	xor    $0x1,%eax
+ 804911f:	c3                   	ret    
+
+08049120 <parity06(unsigned int)>:
+ 8049120:	55                   	push   %ebp
+ 8049121:	89 e5                	mov    %esp,%ebp
+ 8049123:	8b 55 08             	mov    0x8(%ebp),%edx
+ 8049126:	5d                   	pop    %ebp
+ 8049127:	89 d0                	mov    %edx,%eax
+ 8049129:	c1 e8 10             	shr    $0x10,%eax
+ 804912c:	31 d0                	xor    %edx,%eax
+ 804912e:	89 c2                	mov    %eax,%edx
+ 8049130:	c1 ea 08             	shr    $0x8,%edx
+ 8049133:	31 c2                	xor    %eax,%edx
+ 8049135:	89 d0                	mov    %edx,%eax
+ 8049137:	c1 e8 04             	shr    $0x4,%eax
+ 804913a:	31 d0                	xor    %edx,%eax
+ 804913c:	89 c2                	mov    %eax,%edx
+ 804913e:	c1 ea 02             	shr    $0x2,%edx
+ 8049141:	31 c2                	xor    %eax,%edx
+ 8049143:	89 d0                	mov    %edx,%eax
+ 8049145:	d1 e8                	shr    %eax
+ 8049147:	31 d0                	xor    %edx,%eax
+ 8049149:	83 e0 01             	and    $0x1,%eax
+ 804914c:	83 f0 01             	xor    $0x1,%eax
+ 804914f:	c3                   	ret    
+
+08049150 <parity07(unsigned int)>:
+ 8049150:	55                   	push   %ebp
+ 8049151:	b8 01 00 00 00       	mov    $0x1,%eax
+ 8049156:	89 e5                	mov    %esp,%ebp
+ 8049158:	8b 4d 08             	mov    0x8(%ebp),%ecx
+ 804915b:	5d                   	pop    %ebp
+ 804915c:	89 ca                	mov    %ecx,%edx
+ 804915e:	c1 ea 10             	shr    $0x10,%edx
+ 8049161:	31 d1                	xor    %edx,%ecx
+ 8049163:	89 ca                	mov    %ecx,%edx
+ 8049165:	c1 ea 08             	shr    $0x8,%edx
+ 8049168:	31 ca                	xor    %ecx,%edx
+ 804916a:	0f 9a c2             	setp   %dl
+ 804916d:	0f b6 c2             	movzbl %dl,%eax
+ 8049170:	c3                   	ret    
+ 8049171:	eb 0d                	jmp    8049180 <parity08(unsigned int)>
+ 8049173:	90                   	nop
+ 8049174:	90                   	nop
+ 8049175:	90                   	nop
+ 8049176:	90                   	nop
+ 8049177:	90                   	nop
+ 8049178:	90                   	nop
+ 8049179:	90                   	nop
+ 804917a:	90                   	nop
+ 804917b:	90                   	nop
+ 804917c:	90                   	nop
+ 804917d:	90                   	nop
+ 804917e:	90                   	nop
+ 804917f:	90                   	nop
+
+08049180 <parity08(unsigned int)>:
+ 8049180:	55                   	push   %ebp
+ 8049181:	89 e5                	mov    %esp,%ebp
+ 8049183:	f3 0f b8 45 08       	popcnt 0x8(%ebp),%eax
+ 8049188:	83 e0 01             	and    $0x1,%eax
+ 804918b:	83 f0 01             	xor    $0x1,%eax
+ 804918e:	5d                   	pop    %ebp
+ 804918f:	c3                   	ret    
+
+08049190 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)>:
+ 8049190:	55                   	push   %ebp
+ 8049191:	89 e5                	mov    %esp,%ebp
+ 8049193:	57                   	push   %edi
+ 8049194:	bf ff ff ff ff       	mov    $0xffffffff,%edi
+ 8049199:	56                   	push   %esi
+ 804919a:	53                   	push   %ebx
+ 804919b:	bb 20 00 00 00       	mov    $0x20,%ebx
+ 80491a0:	83 ec 6c             	sub    $0x6c,%esp
+ 80491a3:	8b 75 08             	mov    0x8(%ebp),%esi
+ 80491a6:	89 75 b0             	mov    %esi,-0x50(%ebp)
+ 80491a9:	be ff ff ff ff       	mov    $0xffffffff,%esi
+ 80491ae:	66 90                	xchg   %ax,%ax
+ 80491b0:	0f 01 f9             	rdtscp 
+ 80491b3:	89 45 c0             	mov    %eax,-0x40(%ebp)
+ 80491b6:	89 55 c4             	mov    %edx,-0x3c(%ebp)
+ 80491b9:	0f 01 f9             	rdtscp 
+ 80491bc:	39 55 c4             	cmp    %edx,-0x3c(%ebp)
+ 80491bf:	77 1f                	ja     80491e0 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x50>
+ 80491c1:	72 05                	jb     80491c8 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x38>
+ 80491c3:	39 45 c0             	cmp    %eax,-0x40(%ebp)
+ 80491c6:	73 18                	jae    80491e0 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x50>
+ 80491c8:	2b 45 c0             	sub    -0x40(%ebp),%eax
+ 80491cb:	1b 55 c4             	sbb    -0x3c(%ebp),%edx
+ 80491ce:	39 d7                	cmp    %edx,%edi
+ 80491d0:	72 0e                	jb     80491e0 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x50>
+ 80491d2:	77 04                	ja     80491d8 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x48>
+ 80491d4:	39 c6                	cmp    %eax,%esi
+ 80491d6:	76 08                	jbe    80491e0 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x50>
+ 80491d8:	89 c6                	mov    %eax,%esi
+ 80491da:	89 d7                	mov    %edx,%edi
+ 80491dc:	8d 74 26 00          	lea    0x0(%esi,%eiz,1),%esi
+ 80491e0:	83 eb 01             	sub    $0x1,%ebx
+ 80491e3:	75 cb                	jne    80491b0 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x20>
+ 80491e5:	89 75 b8             	mov    %esi,-0x48(%ebp)
+ 80491e8:	8b 75 b0             	mov    -0x50(%ebp),%esi
+ 80491eb:	bb 20 00 00 00       	mov    $0x20,%ebx
+ 80491f0:	89 7d bc             	mov    %edi,-0x44(%ebp)
+ 80491f3:	c7 45 a8 ff ff ff ff 	movl   $0xffffffff,-0x58(%ebp)
+ 80491fa:	c7 45 ac ff ff ff ff 	movl   $0xffffffff,-0x54(%ebp)
+ 8049201:	8d b4 26 00 00 00 00 	lea    0x0(%esi,%eiz,1),%esi
+ 8049208:	0f 01 f9             	rdtscp 
+ 804920b:	89 45 c0             	mov    %eax,-0x40(%ebp)
+ 804920e:	a1 3c ad 44 08       	mov    0x844ad3c,%eax
+ 8049213:	89 55 c4             	mov    %edx,-0x3c(%ebp)
+ 8049216:	89 4d e4             	mov    %ecx,-0x1c(%ebp)
+ 8049219:	89 04 24             	mov    %eax,(%esp)
+ 804921c:	ff d6                	call   *%esi
+ 804921e:	0f 01 f9             	rdtscp 
+ 8049221:	39 55 c4             	cmp    %edx,-0x3c(%ebp)
+ 8049224:	89 4d e4             	mov    %ecx,-0x1c(%ebp)
+ 8049227:	77 1f                	ja     8049248 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0xb8>
+ 8049229:	72 05                	jb     8049230 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0xa0>
+ 804922b:	39 45 c0             	cmp    %eax,-0x40(%ebp)
+ 804922e:	73 18                	jae    8049248 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0xb8>
+ 8049230:	2b 45 c0             	sub    -0x40(%ebp),%eax
+ 8049233:	1b 55 c4             	sbb    -0x3c(%ebp),%edx
+ 8049236:	39 55 ac             	cmp    %edx,-0x54(%ebp)
+ 8049239:	72 0d                	jb     8049248 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0xb8>
+ 804923b:	77 05                	ja     8049242 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0xb2>
+ 804923d:	39 45 a8             	cmp    %eax,-0x58(%ebp)
+ 8049240:	76 06                	jbe    8049248 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0xb8>
+ 8049242:	89 45 a8             	mov    %eax,-0x58(%ebp)
+ 8049245:	89 55 ac             	mov    %edx,-0x54(%ebp)
+ 8049248:	83 eb 01             	sub    $0x1,%ebx
+ 804924b:	75 bb                	jne    8049208 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x78>
+ 804924d:	8b 55 a8             	mov    -0x58(%ebp),%edx
+ 8049250:	bb 20 00 00 00       	mov    $0x20,%ebx
+ 8049255:	8b 4d ac             	mov    -0x54(%ebp),%ecx
+ 8049258:	2b 55 b8             	sub    -0x48(%ebp),%edx
+ 804925b:	1b 4d bc             	sbb    -0x44(%ebp),%ecx
+ 804925e:	c7 45 a0 ff ff ff ff 	movl   $0xffffffff,-0x60(%ebp)
+ 8049265:	89 55 a8             	mov    %edx,-0x58(%ebp)
+ 8049268:	89 4d ac             	mov    %ecx,-0x54(%ebp)
+ 804926b:	c7 45 a4 ff ff ff 7f 	movl   $0x7fffffff,-0x5c(%ebp)
+ 8049272:	89 75 c0             	mov    %esi,-0x40(%ebp)
+ 8049275:	8d 76 00             	lea    0x0(%esi),%esi
+ 8049278:	8d 4d d0             	lea    -0x30(%ebp),%ecx
+ 804927b:	89 0c 24             	mov    %ecx,(%esp)
+ 804927e:	e8 3d f9 ff ff       	call   8048bc0 <std::chrono::system_clock::now()@plt>
+ 8049283:	8d 45 d0             	lea    -0x30(%ebp),%eax
+ 8049286:	8b 7d d4             	mov    -0x2c(%ebp),%edi
+ 8049289:	8b 75 d0             	mov    -0x30(%ebp),%esi
+ 804928c:	83 ec 04             	sub    $0x4,%esp
+ 804928f:	89 04 24             	mov    %eax,(%esp)
+ 8049292:	e8 29 f9 ff ff       	call   8048bc0 <std::chrono::system_clock::now()@plt>
+ 8049297:	8b 55 d4             	mov    -0x2c(%ebp),%edx
+ 804929a:	8b 45 d0             	mov    -0x30(%ebp),%eax
+ 804929d:	83 ec 04             	sub    $0x4,%esp
+ 80492a0:	39 fa                	cmp    %edi,%edx
+ 80492a2:	7c 2c                	jl     80492d0 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x140>
+ 80492a4:	7f 04                	jg     80492aa <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x11a>
+ 80492a6:	39 f0                	cmp    %esi,%eax
+ 80492a8:	76 26                	jbe    80492d0 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x140>
+ 80492aa:	29 f0                	sub    %esi,%eax
+ 80492ac:	be e8 03 00 00       	mov    $0x3e8,%esi
+ 80492b1:	19 fa                	sbb    %edi,%edx
+ 80492b3:	69 ca e8 03 00 00    	imul   $0x3e8,%edx,%ecx
+ 80492b9:	f7 e6                	mul    %esi
+ 80492bb:	01 ca                	add    %ecx,%edx
+ 80492bd:	39 55 a4             	cmp    %edx,-0x5c(%ebp)
+ 80492c0:	7c 0e                	jl     80492d0 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x140>
+ 80492c2:	7f 05                	jg     80492c9 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x139>
+ 80492c4:	39 45 a0             	cmp    %eax,-0x60(%ebp)
+ 80492c7:	76 07                	jbe    80492d0 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x140>
+ 80492c9:	89 45 a0             	mov    %eax,-0x60(%ebp)
+ 80492cc:	89 55 a4             	mov    %edx,-0x5c(%ebp)
+ 80492cf:	90                   	nop
+ 80492d0:	83 eb 01             	sub    $0x1,%ebx
+ 80492d3:	75 a3                	jne    8049278 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0xe8>
+ 80492d5:	8b 75 c0             	mov    -0x40(%ebp),%esi
+ 80492d8:	c7 45 b0 ff ff ff ff 	movl   $0xffffffff,-0x50(%ebp)
+ 80492df:	c7 45 c0 20 00 00 00 	movl   $0x20,-0x40(%ebp)
+ 80492e6:	c7 45 b4 ff ff ff 7f 	movl   $0x7fffffff,-0x4c(%ebp)
+ 80492ed:	8d 76 00             	lea    0x0(%esi),%esi
+ 80492f0:	8d 7d d0             	lea    -0x30(%ebp),%edi
+ 80492f3:	31 db                	xor    %ebx,%ebx
+ 80492f5:	89 3c 24             	mov    %edi,(%esp)
+ 80492f8:	bf 40 ad 04 08       	mov    $0x804ad40,%edi
+ 80492fd:	e8 be f8 ff ff       	call   8048bc0 <std::chrono::system_clock::now()@plt>
+ 8049302:	8b 55 d0             	mov    -0x30(%ebp),%edx
+ 8049305:	8b 4d d4             	mov    -0x2c(%ebp),%ecx
+ 8049308:	89 55 b8             	mov    %edx,-0x48(%ebp)
+ 804930b:	89 4d bc             	mov    %ecx,-0x44(%ebp)
+ 804930e:	83 ec 04             	sub    $0x4,%esp
+ 8049311:	8d b4 26 00 00 00 00 	lea    0x0(%esi,%eiz,1),%esi
+ 8049318:	8b 07                	mov    (%edi),%eax
+ 804931a:	89 04 24             	mov    %eax,(%esp)
+ 804931d:	ff d6                	call   *%esi
+ 804931f:	83 f8 01             	cmp    $0x1,%eax
+ 8049322:	83 db ff             	sbb    $0xffffffff,%ebx
+ 8049325:	83 c7 04             	add    $0x4,%edi
+ 8049328:	81 ff 40 ad 44 08    	cmp    $0x844ad40,%edi
+ 804932e:	75 e8                	jne    8049318 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x188>
+ 8049330:	8d 4d d0             	lea    -0x30(%ebp),%ecx
+ 8049333:	bf e8 03 00 00       	mov    $0x3e8,%edi
+ 8049338:	89 0c 24             	mov    %ecx,(%esp)
+ 804933b:	e8 80 f8 ff ff       	call   8048bc0 <std::chrono::system_clock::now()@plt>
+ 8049340:	8b 45 d0             	mov    -0x30(%ebp),%eax
+ 8049343:	8b 55 d4             	mov    -0x2c(%ebp),%edx
+ 8049346:	83 ec 04             	sub    $0x4,%esp
+ 8049349:	2b 45 b8             	sub    -0x48(%ebp),%eax
+ 804934c:	1b 55 bc             	sbb    -0x44(%ebp),%edx
+ 804934f:	69 ca e8 03 00 00    	imul   $0x3e8,%edx,%ecx
+ 8049355:	f7 e7                	mul    %edi
+ 8049357:	01 ca                	add    %ecx,%edx
+ 8049359:	39 55 b4             	cmp    %edx,-0x4c(%ebp)
+ 804935c:	7c 0d                	jl     804936b <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x1db>
+ 804935e:	7f 05                	jg     8049365 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x1d5>
+ 8049360:	39 45 b0             	cmp    %eax,-0x50(%ebp)
+ 8049363:	76 06                	jbe    804936b <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x1db>
+ 8049365:	89 45 b0             	mov    %eax,-0x50(%ebp)
+ 8049368:	89 55 b4             	mov    %edx,-0x4c(%ebp)
+ 804936b:	83 6d c0 01          	subl   $0x1,-0x40(%ebp)
+ 804936f:	0f 85 7b ff ff ff    	jne    80492f0 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x160>
+ 8049375:	8b 75 b0             	mov    -0x50(%ebp),%esi
+ 8049378:	8b 7d b4             	mov    -0x4c(%ebp),%edi
+ 804937b:	c7 44 24 08 e8 03 00 	movl   $0x3e8,0x8(%esp)
+ 8049382:	00 
+ 8049383:	c7 44 24 0c 00 00 00 	movl   $0x0,0xc(%esp)
+ 804938a:	00 
+ 804938b:	89 34 24             	mov    %esi,(%esp)
+ 804938e:	89 7c 24 04          	mov    %edi,0x4(%esp)
+ 8049392:	e8 59 f7 ff ff       	call   8048af0 <__divdi3@plt>
+ 8049397:	89 c6                	mov    %eax,%esi
+ 8049399:	89 d7                	mov    %edx,%edi
+ 804939b:	8b 45 b0             	mov    -0x50(%ebp),%eax
+ 804939e:	8b 55 b4             	mov    -0x4c(%ebp),%edx
+ 80493a1:	2b 45 a0             	sub    -0x60(%ebp),%eax
+ 80493a4:	1b 55 a4             	sbb    -0x5c(%ebp),%edx
+ 80493a7:	89 45 c8             	mov    %eax,-0x38(%ebp)
+ 80493aa:	8b 45 0c             	mov    0xc(%ebp),%eax
+ 80493ad:	89 55 cc             	mov    %edx,-0x34(%ebp)
+ 80493b0:	df 6d c8             	fildll -0x38(%ebp)
+ 80493b3:	d8 0d 1c 98 04 08    	fmuls  0x804981c
+ 80493b9:	85 c0                	test   %eax,%eax
+ 80493bb:	d9 5d c0             	fstps  -0x40(%ebp)
+ 80493be:	0f 84 0d 01 00 00    	je     80494d1 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x341>
+ 80493c4:	8b 45 0c             	mov    0xc(%ebp),%eax
+ 80493c7:	89 04 24             	mov    %eax,(%esp)
+ 80493ca:	e8 b1 f7 ff ff       	call   8048b80 <strlen@plt>
+ 80493cf:	8b 55 0c             	mov    0xc(%ebp),%edx
+ 80493d2:	c7 04 24 a0 ac 04 08 	movl   $0x804aca0,(%esp)
+ 80493d9:	89 54 24 04          	mov    %edx,0x4(%esp)
+ 80493dd:	89 44 24 08          	mov    %eax,0x8(%esp)
+ 80493e1:	e8 8a f8 ff ff       	call   8048c70 <std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, int)@plt>
+ 80493e6:	a1 a0 ac 04 08       	mov    0x804aca0,%eax
+ 80493eb:	8b 40 f4             	mov    -0xc(%eax),%eax
+ 80493ee:	89 5c 24 04          	mov    %ebx,0x4(%esp)
+ 80493f2:	c7 04 24 a0 ac 04 08 	movl   $0x804aca0,(%esp)
+ 80493f9:	c7 80 a8 ac 04 08 0c 	movl   $0xc,0x804aca8(%eax)
+ 8049400:	00 00 00 
+ 8049403:	e8 f8 f7 ff ff       	call   8048c00 <std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long)@plt>
+ 8049408:	8b 4d ac             	mov    -0x54(%ebp),%ecx
+ 804940b:	8b 10                	mov    (%eax),%edx
+ 804940d:	8b 52 f4             	mov    -0xc(%edx),%edx
+ 8049410:	c7 44 10 08 0c 00 00 	movl   $0xc,0x8(%eax,%edx,1)
+ 8049417:	00 
+ 8049418:	8b 55 a8             	mov    -0x58(%ebp),%edx
+ 804941b:	89 4c 24 08          	mov    %ecx,0x8(%esp)
+ 804941f:	89 04 24             	mov    %eax,(%esp)
+ 8049422:	89 54 24 04          	mov    %edx,0x4(%esp)
+ 8049426:	e8 a5 f7 ff ff       	call   8048bd0 <std::ostream& std::ostream::_M_insert<unsigned long long>(unsigned long long)@plt>
+ 804942b:	8b 10                	mov    (%eax),%edx
+ 804942d:	d9 45 c0             	flds   -0x40(%ebp)
+ 8049430:	8b 4a f4             	mov    -0xc(%edx),%ecx
+ 8049433:	c7 44 08 08 0c 00 00 	movl   $0xc,0x8(%eax,%ecx,1)
+ 804943a:	00 
+ 804943b:	8b 4a f4             	mov    -0xc(%edx),%ecx
+ 804943e:	01 c1                	add    %eax,%ecx
+ 8049440:	8b 51 0c             	mov    0xc(%ecx),%edx
+ 8049443:	c7 41 04 02 00 00 00 	movl   $0x2,0x4(%ecx)
+ 804944a:	81 e2 fb fe ff ff    	and    $0xfffffefb,%edx
+ 8049450:	83 ca 04             	or     $0x4,%edx
+ 8049453:	89 51 0c             	mov    %edx,0xc(%ecx)
+ 8049456:	dd 5c 24 04          	fstpl  0x4(%esp)
+ 804945a:	89 04 24             	mov    %eax,(%esp)
+ 804945d:	e8 ae f7 ff ff       	call   8048c10 <std::ostream& std::ostream::_M_insert<double>(double)@plt>
+ 8049462:	8b 10                	mov    (%eax),%edx
+ 8049464:	8b 52 f4             	mov    -0xc(%edx),%edx
+ 8049467:	c7 44 10 08 0c 00 00 	movl   $0xc,0x8(%eax,%edx,1)
+ 804946e:	00 
+ 804946f:	89 74 24 04          	mov    %esi,0x4(%esp)
+ 8049473:	89 7c 24 08          	mov    %edi,0x8(%esp)
+ 8049477:	89 04 24             	mov    %eax,(%esp)
+ 804947a:	e8 01 f8 ff ff       	call   8048c80 <std::ostream& std::ostream::_M_insert<long long>(long long)@plt>
+ 804947f:	89 c6                	mov    %eax,%esi
+ 8049481:	8b 00                	mov    (%eax),%eax
+ 8049483:	8b 40 f4             	mov    -0xc(%eax),%eax
+ 8049486:	8b 5c 06 7c          	mov    0x7c(%esi,%eax,1),%ebx
+ 804948a:	85 db                	test   %ebx,%ebx
+ 804948c:	74 6b                	je     80494f9 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x369>
+ 804948e:	80 7b 1c 00          	cmpb   $0x0,0x1c(%ebx)
+ 8049492:	74 23                	je     80494b7 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x327>
+ 8049494:	0f b6 43 27          	movzbl 0x27(%ebx),%eax
+ 8049498:	0f be c0             	movsbl %al,%eax
+ 804949b:	89 34 24             	mov    %esi,(%esp)
+ 804949e:	89 44 24 04          	mov    %eax,0x4(%esp)
+ 80494a2:	e8 b9 f7 ff ff       	call   8048c60 <std::ostream::put(char)@plt>
+ 80494a7:	89 04 24             	mov    %eax,(%esp)
+ 80494aa:	e8 31 f7 ff ff       	call   8048be0 <std::ostream::flush()@plt>
+ 80494af:	8d 65 f4             	lea    -0xc(%ebp),%esp
+ 80494b2:	5b                   	pop    %ebx
+ 80494b3:	5e                   	pop    %esi
+ 80494b4:	5f                   	pop    %edi
+ 80494b5:	5d                   	pop    %ebp
+ 80494b6:	c3                   	ret    
+ 80494b7:	89 1c 24             	mov    %ebx,(%esp)
+ 80494ba:	e8 51 f6 ff ff       	call   8048b10 <std::ctype<char>::_M_widen_init() const@plt>
+ 80494bf:	8b 03                	mov    (%ebx),%eax
+ 80494c1:	c7 44 24 04 0a 00 00 	movl   $0xa,0x4(%esp)
+ 80494c8:	00 
+ 80494c9:	89 1c 24             	mov    %ebx,(%esp)
+ 80494cc:	ff 50 18             	call   *0x18(%eax)
+ 80494cf:	eb c7                	jmp    8049498 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x308>
+ 80494d1:	a1 a0 ac 04 08       	mov    0x804aca0,%eax
+ 80494d6:	8b 50 f4             	mov    -0xc(%eax),%edx
+ 80494d9:	8b 82 b4 ac 04 08    	mov    0x804acb4(%edx),%eax
+ 80494df:	81 c2 a0 ac 04 08    	add    $0x804aca0,%edx
+ 80494e5:	89 14 24             	mov    %edx,(%esp)
+ 80494e8:	83 c8 01             	or     $0x1,%eax
+ 80494eb:	89 44 24 04          	mov    %eax,0x4(%esp)
+ 80494ef:	e8 fc f6 ff ff       	call   8048bf0 <std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)@plt>
+ 80494f4:	e9 ed fe ff ff       	jmp    80493e6 <void test<unsigned int (unsigned int)>(unsigned int (&)(unsigned int), char const*)+0x256>
+ 80494f9:	e8 e2 f5 ff ff       	call   8048ae0 <std::__throw_bad_cast()@plt>
+ 80494fe:	90                   	nop
+ 80494ff:	90                   	nop
+
+08049500 <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)>:
+ 8049500:	55                   	push   %ebp
+ 8049501:	89 e5                	mov    %esp,%ebp
+ 8049503:	57                   	push   %edi
+ 8049504:	56                   	push   %esi
+ 8049505:	53                   	push   %ebx
+ 8049506:	83 ec 3c             	sub    $0x3c,%esp
+ 8049509:	8b 45 10             	mov    0x10(%ebp),%eax
+ 804950c:	8b 55 10             	mov    0x10(%ebp),%edx
+ 804950f:	8b 7d 0c             	mov    0xc(%ebp),%edi
+ 8049512:	8b 00                	mov    (%eax),%eax
+ 8049514:	8b 72 04             	mov    0x4(%edx),%esi
+ 8049517:	89 45 d4             	mov    %eax,-0x2c(%ebp)
+ 804951a:	29 c6                	sub    %eax,%esi
+ 804951c:	81 fe fc ff ff 7f    	cmp    $0x7ffffffc,%esi
+ 8049522:	77 64                	ja     8049588 <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)+0x88>
+ 8049524:	83 c6 01             	add    $0x1,%esi
+ 8049527:	b8 fd ff ff 7f       	mov    $0x7ffffffd,%eax
+ 804952c:	8b 0f                	mov    (%edi),%ecx
+ 804952e:	31 d2                	xor    %edx,%edx
+ 8049530:	bb bd 16 9c 06       	mov    $0x69c16bd,%ebx
+ 8049535:	f7 f6                	div    %esi
+ 8049537:	0f af f0             	imul   %eax,%esi
+ 804953a:	89 45 d0             	mov    %eax,-0x30(%ebp)
+ 804953d:	8d 76 00             	lea    0x0(%esi),%esi
+ 8049540:	89 c8                	mov    %ecx,%eax
+ 8049542:	f7 e3                	mul    %ebx
+ 8049544:	89 c8                	mov    %ecx,%eax
+ 8049546:	29 d0                	sub    %edx,%eax
+ 8049548:	d1 e8                	shr    %eax
+ 804954a:	01 c2                	add    %eax,%edx
+ 804954c:	c1 ea 10             	shr    $0x10,%edx
+ 804954f:	69 c2 1d f3 01 00    	imul   $0x1f31d,%edx,%eax
+ 8049555:	69 d2 14 0b 00 00    	imul   $0xb14,%edx,%edx
+ 804955b:	29 c1                	sub    %eax,%ecx
+ 804955d:	69 c9 a7 41 00 00    	imul   $0x41a7,%ecx,%ecx
+ 8049563:	39 d1                	cmp    %edx,%ecx
+ 8049565:	73 06                	jae    804956d <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)+0x6d>
+ 8049567:	81 c1 ff ff ff 7f    	add    $0x7fffffff,%ecx
+ 804956d:	29 d1                	sub    %edx,%ecx
+ 804956f:	8d 41 ff             	lea    -0x1(%ecx),%eax
+ 8049572:	39 c6                	cmp    %eax,%esi
+ 8049574:	76 ca                	jbe    8049540 <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)+0x40>
+ 8049576:	31 d2                	xor    %edx,%edx
+ 8049578:	f7 75 d0             	divl   -0x30(%ebp)
+ 804957b:	89 0f                	mov    %ecx,(%edi)
+ 804957d:	03 45 d4             	add    -0x2c(%ebp),%eax
+ 8049580:	83 c4 3c             	add    $0x3c,%esp
+ 8049583:	5b                   	pop    %ebx
+ 8049584:	5e                   	pop    %esi
+ 8049585:	5f                   	pop    %edi
+ 8049586:	5d                   	pop    %ebp
+ 8049587:	c3                   	ret    
+ 8049588:	81 fe fd ff ff 7f    	cmp    $0x7ffffffd,%esi
+ 804958e:	0f 84 94 00 00 00    	je     8049628 <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)+0x128>
+ 8049594:	89 f0                	mov    %esi,%eax
+ 8049596:	b9 03 00 00 80       	mov    $0x80000003,%ecx
+ 804959b:	d1 e8                	shr    %eax
+ 804959d:	f7 e1                	mul    %ecx
+ 804959f:	c1 ea 1d             	shr    $0x1d,%edx
+ 80495a2:	89 55 d4             	mov    %edx,-0x2c(%ebp)
+ 80495a5:	8d 76 00             	lea    0x0(%esi),%esi
+ 80495a8:	8b 55 d4             	mov    -0x2c(%ebp),%edx
+ 80495ab:	8d 45 e0             	lea    -0x20(%ebp),%eax
+ 80495ae:	89 44 24 08          	mov    %eax,0x8(%esp)
+ 80495b2:	89 7c 24 04          	mov    %edi,0x4(%esp)
+ 80495b6:	c7 45 e0 00 00 00 00 	movl   $0x0,-0x20(%ebp)
+ 80495bd:	89 55 e4             	mov    %edx,-0x1c(%ebp)
+ 80495c0:	8b 55 08             	mov    0x8(%ebp),%edx
+ 80495c3:	89 14 24             	mov    %edx,(%esp)
+ 80495c6:	e8 35 ff ff ff       	call   8049500 <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)>
+ 80495cb:	8b 0f                	mov    (%edi),%ecx
+ 80495cd:	69 d8 fe ff ff 7f    	imul   $0x7ffffffe,%eax,%ebx
+ 80495d3:	b8 bd 16 9c 06       	mov    $0x69c16bd,%eax
+ 80495d8:	f7 e1                	mul    %ecx
+ 80495da:	89 c8                	mov    %ecx,%eax
+ 80495dc:	29 d0                	sub    %edx,%eax
+ 80495de:	d1 e8                	shr    %eax
+ 80495e0:	01 c2                	add    %eax,%edx
+ 80495e2:	c1 ea 10             	shr    $0x10,%edx
+ 80495e5:	69 c2 1d f3 01 00    	imul   $0x1f31d,%edx,%eax
+ 80495eb:	69 d2 14 0b 00 00    	imul   $0xb14,%edx,%edx
+ 80495f1:	29 c1                	sub    %eax,%ecx
+ 80495f3:	69 c9 a7 41 00 00    	imul   $0x41a7,%ecx,%ecx
+ 80495f9:	39 d1                	cmp    %edx,%ecx
+ 80495fb:	73 06                	jae    8049603 <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)+0x103>
+ 80495fd:	81 c1 ff ff ff 7f    	add    $0x7fffffff,%ecx
+ 8049603:	29 d1                	sub    %edx,%ecx
+ 8049605:	8d 44 19 ff          	lea    -0x1(%ecx,%ebx,1),%eax
+ 8049609:	39 d8                	cmp    %ebx,%eax
+ 804960b:	89 0f                	mov    %ecx,(%edi)
+ 804960d:	72 99                	jb     80495a8 <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)+0xa8>
+ 804960f:	39 f0                	cmp    %esi,%eax
+ 8049611:	77 95                	ja     80495a8 <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)+0xa8>
+ 8049613:	8b 55 10             	mov    0x10(%ebp),%edx
+ 8049616:	8b 12                	mov    (%edx),%edx
+ 8049618:	89 55 d4             	mov    %edx,-0x2c(%ebp)
+ 804961b:	03 45 d4             	add    -0x2c(%ebp),%eax
+ 804961e:	83 c4 3c             	add    $0x3c,%esp
+ 8049621:	5b                   	pop    %ebx
+ 8049622:	5e                   	pop    %esi
+ 8049623:	5f                   	pop    %edi
+ 8049624:	5d                   	pop    %ebp
+ 8049625:	c3                   	ret    
+ 8049626:	66 90                	xchg   %ax,%ax
+ 8049628:	8b 0f                	mov    (%edi),%ecx
+ 804962a:	ba bd 16 9c 06       	mov    $0x69c16bd,%edx
+ 804962f:	89 c8                	mov    %ecx,%eax
+ 8049631:	f7 e2                	mul    %edx
+ 8049633:	89 c8                	mov    %ecx,%eax
+ 8049635:	29 d0                	sub    %edx,%eax
+ 8049637:	d1 e8                	shr    %eax
+ 8049639:	01 c2                	add    %eax,%edx
+ 804963b:	c1 ea 10             	shr    $0x10,%edx
+ 804963e:	69 c2 1d f3 01 00    	imul   $0x1f31d,%edx,%eax
+ 8049644:	69 d2 14 0b 00 00    	imul   $0xb14,%edx,%edx
+ 804964a:	29 c1                	sub    %eax,%ecx
+ 804964c:	69 c1 a7 41 00 00    	imul   $0x41a7,%ecx,%eax
+ 8049652:	39 d0                	cmp    %edx,%eax
+ 8049654:	72 12                	jb     8049668 <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)+0x168>
+ 8049656:	29 d0                	sub    %edx,%eax
+ 8049658:	89 07                	mov    %eax,(%edi)
+ 804965a:	83 e8 01             	sub    $0x1,%eax
+ 804965d:	03 45 d4             	add    -0x2c(%ebp),%eax
+ 8049660:	83 c4 3c             	add    $0x3c,%esp
+ 8049663:	5b                   	pop    %ebx
+ 8049664:	5e                   	pop    %esi
+ 8049665:	5f                   	pop    %edi
+ 8049666:	5d                   	pop    %ebp
+ 8049667:	c3                   	ret    
+ 8049668:	05 ff ff ff 7f       	add    $0x7fffffff,%eax
+ 804966d:	29 d0                	sub    %edx,%eax
+ 804966f:	89 07                	mov    %eax,(%edi)
+ 8049671:	83 e8 01             	sub    $0x1,%eax
+ 8049674:	eb e7                	jmp    804965d <unsigned int std::uniform_int_distribution<unsigned int>::operator()<std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u> >(std::linear_congruential_engine<unsigned int, 16807u, 0u, 2147483647u>&, std::uniform_int_distribution<unsigned int>::param_type const&)+0x15d>
+ 8049676:	90                   	nop
+ 8049677:	90                   	nop
+ 8049678:	90                   	nop
+ 8049679:	90                   	nop
+ 804967a:	90                   	nop
+ 804967b:	90                   	nop
+ 804967c:	90                   	nop
+ 804967d:	90                   	nop
+ 804967e:	90                   	nop
+ 804967f:	90                   	nop
+
+08049680 <__libc_csu_fini>:
+ 8049680:	55                   	push   %ebp
+ 8049681:	89 e5                	mov    %esp,%ebp
+ 8049683:	5d                   	pop    %ebp
+ 8049684:	c3                   	ret    
+ 8049685:	8d 74 26 00          	lea    0x0(%esi,%eiz,1),%esi
+ 8049689:	8d bc 27 00 00 00 00 	lea    0x0(%edi,%eiz,1),%edi
+
+08049690 <__libc_csu_init>:
+ 8049690:	55                   	push   %ebp
+ 8049691:	89 e5                	mov    %esp,%ebp
+ 8049693:	57                   	push   %edi
+ 8049694:	56                   	push   %esi
+ 8049695:	53                   	push   %ebx
+ 8049696:	e8 4f 00 00 00       	call   80496ea <__i686.get_pc_thunk.bx>
+ 804969b:	81 c3 7d 15 00 00    	add    $0x157d,%ebx
+ 80496a1:	83 ec 1c             	sub    $0x1c,%esp
+ 80496a4:	e8 d3 f3 ff ff       	call   8048a7c <_init>
+ 80496a9:	8d bb ec fe ff ff    	lea    -0x114(%ebx),%edi
+ 80496af:	8d 83 e4 fe ff ff    	lea    -0x11c(%ebx),%eax
+ 80496b5:	29 c7                	sub    %eax,%edi
+ 80496b7:	c1 ff 02             	sar    $0x2,%edi
+ 80496ba:	85 ff                	test   %edi,%edi
+ 80496bc:	74 24                	je     80496e2 <__libc_csu_init+0x52>
+ 80496be:	31 f6                	xor    %esi,%esi
+ 80496c0:	8b 45 10             	mov    0x10(%ebp),%eax
+ 80496c3:	89 44 24 08          	mov    %eax,0x8(%esp)
+ 80496c7:	8b 45 0c             	mov    0xc(%ebp),%eax
+ 80496ca:	89 44 24 04          	mov    %eax,0x4(%esp)
+ 80496ce:	8b 45 08             	mov    0x8(%ebp),%eax
+ 80496d1:	89 04 24             	mov    %eax,(%esp)
+ 80496d4:	ff 94 b3 e4 fe ff ff 	call   *-0x11c(%ebx,%esi,4)
+ 80496db:	83 c6 01             	add    $0x1,%esi
+ 80496de:	39 fe                	cmp    %edi,%esi
+ 80496e0:	72 de                	jb     80496c0 <__libc_csu_init+0x30>
+ 80496e2:	83 c4 1c             	add    $0x1c,%esp
+ 80496e5:	5b                   	pop    %ebx
+ 80496e6:	5e                   	pop    %esi
+ 80496e7:	5f                   	pop    %edi
+ 80496e8:	5d                   	pop    %ebp
+ 80496e9:	c3                   	ret    
+
+080496ea <__i686.get_pc_thunk.bx>:
+ 80496ea:	8b 1c 24             	mov    (%esp),%ebx
+ 80496ed:	c3                   	ret    
+ 80496ee:	90                   	nop
+ 80496ef:	90                   	nop
+
+Disassembly of section .fini:
+
+080496f0 <_fini>:
+ 80496f0:	55                   	push   %ebp
+ 80496f1:	89 e5                	mov    %esp,%ebp
+ 80496f3:	53                   	push   %ebx
+ 80496f4:	83 ec 04             	sub    $0x4,%esp
+ 80496f7:	e8 00 00 00 00       	call   80496fc <_fini+0xc>
+ 80496fc:	5b                   	pop    %ebx
+ 80496fd:	81 c3 1c 15 00 00    	add    $0x151c,%ebx
+ 8049703:	59                   	pop    %ecx
+ 8049704:	5b                   	pop    %ebx
+ 8049705:	c9                   	leave  
+ 8049706:	c3                   	ret    

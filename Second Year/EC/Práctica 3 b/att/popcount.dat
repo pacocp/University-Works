@@ -1,0 +1,13 @@
+                            popcnt      cycles    time(ns)   total(us)
+popcount01(for_______)    16781188         375      120.42      126275
+popcount02(while_____)    16781188         180       85.93       90100
+popcount03(inline____)    16781188         138       47.93       50263
+popcount04(inline_v2_)    16781188         132       79.86       83741
+popcount05(0'hallaron)    16781188          36       17.90       18768
+popcount06(gus_______)    16781188         186       47.02       49304
+popcount07(wikipedia_)    16781188          36        9.87       10347
+popcount08(Wegner____)    16781188          54       41.36       43373
+popcount09(lt8_______)    16781188          30        8.32        8729
+popcount10(lt8_v2____)    16781188          24       11.72       12292
+popcount11(lt8_v3____)    16781188          24       12.91       13538
+popcount12(builtin___)    16781188          12        4.19        4394

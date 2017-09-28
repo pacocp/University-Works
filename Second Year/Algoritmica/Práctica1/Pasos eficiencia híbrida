@@ -1,0 +1,11 @@
+Pasos para calcular la eficiencia híbrida:
+
+gnuplot> f(x) = a0*x*log(x) //esto para el caso de algoritmos n log (n). Cada uno deberá ajustarlo al algoritmo que tenga
+gnuplot> fit f(x) "salida_algoritmo.dat" via a0 //si se tienen más constantes ocultas, ej: a0, a1, entonces en via sería: via a0, a1
+gnuplot> set encoding utf8
+gnuplot> set terminal png size 1024,768
+gnuplot> set title 'Algoritmo-Ef.Hibrida'
+gnuplot> set output 'algoritmo-hibrida.png'
+gnuplot> set xlabel 'Bytes'
+gnuplot> set ylabel 'Execution time'
+gnuplot> plot 'salidamerge.dat', f(x) title 'Algoritmo - Hibrida'

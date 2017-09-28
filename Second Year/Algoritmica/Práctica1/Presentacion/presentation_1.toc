@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Ordenacion}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Burbuja}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Seleccion}{3}{0}{1}
+\beamer@subsectionintoc {1}{3}{Insercion}{3}{0}{1}
+\beamer@sectionintoc {2}{Ordenacion rapida}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Quick Sort}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{Heap Sort}{3}{0}{2}
+\beamer@subsectionintoc {2}{3}{Merge Sort}{3}{0}{2}
+\beamer@sectionintoc {3}{Floyd}{3}{0}{3}
+\beamer@sectionintoc {4}{Hanoi}{3}{0}{4}
+\beamer@sectionintoc {5}{Second Section}{7}{0}{5}

@@ -1,0 +1,10 @@
+PACO -> Burbuja quick
+MANUEL PORCEL -> seleccion hanoi
+BOHA  -> heap  
+HOSE ALBERTO -> merge  
+XX -> floyd insercion
+
+Paco,Borja,Porcel : hacer la presentacion (latex) e informe
+Hose alberto: hacer prueba de heap en su ordenador y comparar
+XX: hacer prueba de hanoi en su ordenador y comparar
+

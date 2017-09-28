@@ -1,0 +1,11 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{3}
+\contentsline {section}{\numberline {2}Elementos de la soluci\IeC {\'o}n al problema}{3}
+\contentsline {subsection}{\numberline {2.1}Representaci\IeC {\'o}n de la compatibilidad}{3}
+\contentsline {subsection}{\numberline {2.2}Representaci\IeC {\'o}n de la soluci\IeC {\'o}n}{3}
+\contentsline {subsection}{\numberline {2.3}Solucion parcial}{3}
+\contentsline {subsection}{\numberline {2.4}Restricciones expl\IeC {\'\i }citas}{3}
+\contentsline {subsection}{\numberline {2.5}Restricciones impl\IeC {\'\i }citas}{3}
+\contentsline {section}{\numberline {3}Pseudoc\IeC {\'o}digo}{3}
+\contentsline {section}{\numberline {4}Eficiencia}{4}
+\contentsline {subsection}{\numberline {4.1}Eficiencia H\IeC {\'\i }brida}{5}

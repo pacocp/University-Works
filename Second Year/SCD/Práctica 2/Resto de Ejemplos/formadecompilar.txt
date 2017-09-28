@@ -1,0 +1,3 @@
+javac -nombrearchivo-
+
+java -clasedondeestaelmain-

@@ -1,0 +1,146 @@
+\input{preambuloSimple.tex}
+ \usepackage{algpseudocode}
+%----------------------------------------------------------------------------------------
+%	TÍTULO Y DATOS DEL ALUMNO
+%----------------------------------------------------------------------------------------
+
+\title{	
+\normalfont \normalsize 
+\textsc{{\bf Algorítmica (2015-2016)} \\ Grado en Ingeniería Informática \\ Universidad de Granada} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Práctica 3-Primera Parte: Minimizando el número de visitas al proveedor \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Francisco Carrillo Pérez,Borja Cañavate Bordons, \\Miguel Porcel Jiménez,Jose Manuel Rejón Santiago,Jose Arcos Aneas} % Nombre y apellidos
+
+\date{\normalsize\today} % Incluye la fecha actual
+
+%----------------------------------------------------------------------------------------
+% DOCUMENTO
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Muestra el Título
+
+\newpage %inserta un salto de página
+
+\tableofcontents % para generar el índice de contenidos
+
+\listoffigures
+
+\listoftables
+
+\newpage
+
+\section{Introducción }
+
+El problema que vamos a tratar de resolver desde la aproximación de un algoritmo Greedy consiste en minimizar el número de visitas que debe realizar un granjero a su proveedor, es decir, nos encontramos frente a un problema de optimización.
+	
+%----------------------------------------------------------------------------------------
+
+\section{Resolución del problema}
+
+Tenemos un granjero cuyo fertilizante dura R días. Además conocemos los días en los que abre la tienda.
+Con estas características podemos tener dos posibilidades para resolver este problema:
+\begin{itemize}
+	\item Buscar la fecha mas cercana dentro del intervalo R
+	\item Buscar la fecha mas lejana dentro del intervalor R
+\end{itemize}
+
+Como lo que queremos es optimizar, es decir, reducir el número de viajes que debe dar el granjero descartamos la primera opción y nos centramos en la segunda.
+
+%------------------------------------------------------------------------------------------
+
+\section{Elementos de la solución al problema}
+
+\subsection{Conjunto de candidatos}
+El conjunto de candiatos serán aquellos días en los que la tienda se encuentre abierta.
+
+\subsection{Conjunto de seleccionados}
+El conjunto de seleccionados serán los días elegidos para acudir a la tienda.
+
+\subsection{Función solución}
+Nuestra función solución será si han pasado todos esos días y no nos hemos quedado sin fertilizante, lo que significará que hemos maximizado el número de viajes.
+
+\subsection{Función de factibilidad}
+Sabremos que no hay solución, si dentro del intervalo R no hay ninguna tienda a la que acudir.
+
+\subsection{Función selección}
+Se seleccionará el día más lejano de los posibles.
+
+\subsection{Función objetivo}
+La solución devolverá una lista, con los dias en los que el granjero irá a  la tienda.
+
+%--------------------------------------------------------------------------------------------
+
+\section{Demostración que encuentra siempre la solución óptima}
+
+Vamos a demostrar que encuentra siempre la solución óptima por una reducción al absurdo:\\
+
+Sea $ L = g_0 < g_1 < ... < g_p $ el conjunto de días seleccionados por el algoritmo Greedy que \textbf{NO} es óptimo.\\
+
+Sea $ L_{op} = f_0 < f_1 < ... < f_p $ una de la soluciones óptimas del problema.\\
+
+Sea $r$ el máximo valor posible hasta donde L y $L_{op}$ coinciden, es decir, $f_0=g:0, f_1=g_1,...,f_r = g_r$.\\
+Entonces, $g(r+1) > f(r+1)$ \\
+Por lo que $g_0 < ... < g_r < g(r+1) < f(r+2) < f_q $ es otra solución al problema. 
+
+Si f llega un momento que se separa de g querrá decir que el número de días será mayor o igual.\\
+Por lo que alcanzamos una contradicción, ya que $r$  no sería el máximo valor donde $L$ y $L_{op}$ siguen siendo iguales.
+
+
+\section{Pseudocódigo}
+
+	Selección
+	
+	\begin{algorithmic}
+		\Require Conjunto de candidatos C
+		\State {x=0}
+		\For {i = 1 to len(C)}
+		\If{ c\_i - c\_dia\_actual menor que R }
+		\State{x = c\_i}
+		\EndIf
+		\EndFor  
+		
+		\Return x	
+	\end{algorithmic}	
+
+
+	
+	Factibilidad
+	\begin{algorithmic}
+		
+		\Require Candidato c
+		
+		\If{ c\_dia\_actual == c }
+		
+		\Return False
+		\Else 
+		
+		\Return True 	   	
+		\EndIf
+			
+		
+	\end{algorithmic}
+	
+	\newpage
+	Problema completo
+
+	\begin{algorithmic}
+		\Require Conjunto de candidatos C
+		
+		\State{S = 0}
+		
+		\While {S no sea una solución y C != 0 }
+		\State{x = seleccion (C) }
+		\State{C = C - {x}}
+		\If{factible({x})}
+		\State{S = S + {x}}
+		\EndIf
+		\EndWhile
+	\end{algorithmic}	
+	
+
+\end{document}
