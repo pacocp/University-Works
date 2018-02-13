@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="graph_title_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMN_string_disact"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="graph_title" type="xstring" value="Title"/>
+<entry key="graph_title_BOOL" type="xboolean" value="false"/>
+<config key="graph_height_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="graph_height" type="xint" value="600"/>
+<config key="graph_width_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="graph_width" type="xint" value="400"/>
+<config key="CFG_TYPE_IMAGE_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_TYPE_IMAGE" type="xstring" value="PNG"/>
+<config key="CFG_BackColor_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="CFG_BackColor">
+<entry key="Red" type="xint" value="255"/>
+<entry key="Green" type="xint" value="255"/>
+<entry key="Blue" type="xint" value="255"/>
+<entry key="Alpha" type="xint" value="255"/>
+</config>
+<config key="CFG_PlotColor_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="CFG_PlotColor">
+<entry key="Red" type="xint" value="191"/>
+<entry key="Green" type="xint" value="191"/>
+<entry key="Blue" type="xint" value="191"/>
+<entry key="Alpha" type="xint" value="255"/>
+</config>
+<config key="CFG_PlotAlpha_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_PlotAlpha" type="xdouble" value="0.2"/>
+<config key="CFG_FSScale_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_FSScale" type="xdouble" value="1.0"/>
+<config key="nrofBins_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="nrofBins" type="xint" value="5"/>
+<config key="CFG_SHOW_HISTORY_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_SHOW_HISTORY" type="xboolean" value="false"/>
+<config key="CFG_X_LABEL_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMN_string_disact"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_X_LABEL" type="xstring" value="possible values"/>
+<entry key="CFG_X_LABEL_BOOL" type="xboolean" value="false"/>
+<config key="CFG_Y_LABEL_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMN_string_disact"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_Y_LABEL" type="xstring" value="No. of occurances in column"/>
+<entry key="CFG_Y_LABEL_BOOL" type="xboolean" value="false"/>
+<config key="CFG_X_COLUMNS_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="CFG_X_COLUMNS">
+<config key="InclList">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="age"/>
+<entry key="1" type="xstring" value="&gt;50K"/>
+</config>
+<config key="ExclList">
+<entry key="array-size" type="xint" value="92"/>
+<entry key="0" type="xstring" value="fnlwgt"/>
+<entry key="1" type="xstring" value="education-num"/>
+<entry key="2" type="xstring" value="capital-gain"/>
+<entry key="3" type="xstring" value="capital-loss"/>
+<entry key="4" type="xstring" value="hours-per-week"/>
+<entry key="5" type="xstring" value="State-gov"/>
+<entry key="6" type="xstring" value="Self-emp-not-inc"/>
+<entry key="7" type="xstring" value="Private"/>
+<entry key="8" type="xstring" value="Federal-gov"/>
+<entry key="9" type="xstring" value="Local-gov"/>
+<entry key="10" type="xstring" value="Self-emp-inc"/>
+<entry key="11" type="xstring" value="Without-pay"/>
+<entry key="12" type="xstring" value="Never-worked"/>
+<entry key="13" type="xstring" value="Bachelors"/>
+<entry key="14" type="xstring" value="HS-grad"/>
+<entry key="15" type="xstring" value="11th"/>
+<entry key="16" type="xstring" value="Masters"/>
+<entry key="17" type="xstring" value="9th"/>
+<entry key="18" type="xstring" value="Some-college"/>
+<entry key="19" type="xstring" value="Assoc-acdm"/>
+<entry key="20" type="xstring" value="Assoc-voc"/>
+<entry key="21" type="xstring" value="7th-8th"/>
+<entry key="22" type="xstring" value="Doctorate"/>
+<entry key="23" type="xstring" value="Prof-school"/>
+<entry key="24" type="xstring" value="5th-6th"/>
+<entry key="25" type="xstring" value="10th"/>
+<entry key="26" type="xstring" value="1st-4th"/>
+<entry key="27" type="xstring" value="Preschool"/>
+<entry key="28" type="xstring" value="12th"/>
+<entry key="29" type="xstring" value="Adm-clerical"/>
+<entry key="30" type="xstring" value="Exec-managerial"/>
+<entry key="31" type="xstring" value="Handlers-cleaners"/>
+<entry key="32" type="xstring" value="Prof-specialty"/>
+<entry key="33" type="xstring" value="Other-service"/>
+<entry key="34" type="xstring" value="Sales"/>
+<entry key="35" type="xstring" value="Craft-repair"/>
+<entry key="36" type="xstring" value="Transport-moving"/>
+<entry key="37" type="xstring" value="Farming-fishing"/>
+<entry key="38" type="xstring" value="Machine-op-inspct"/>
+<entry key="39" type="xstring" value="Tech-support"/>
+<entry key="40" type="xstring" value="Protective-serv"/>
+<entry key="41" type="xstring" value="Armed-Forces"/>
+<entry key="42" type="xstring" value="Priv-house-serv"/>
+<entry key="43" type="xstring" value="White"/>
+<entry key="44" type="xstring" value="Black"/>
+<entry key="45" type="xstring" value="Asian-Pac-Islander"/>
+<entry key="46" type="xstring" value="Amer-Indian-Eskimo"/>
+<entry key="47" type="xstring" value="Other"/>
+<entry key="48" type="xstring" value="Male"/>
+<entry key="49" type="xstring" value="Female"/>
+<entry key="50" type="xstring" value="United-States"/>
+<entry key="51" type="xstring" value="Cuba"/>
+<entry key="52" type="xstring" value="Jamaica"/>
+<entry key="53" type="xstring" value="India"/>
+<entry key="54" type="xstring" value="Mexico"/>
+<entry key="55" type="xstring" value="South"/>
+<entry key="56" type="xstring" value="Puerto-Rico"/>
+<entry key="57" type="xstring" value="Honduras"/>
+<entry key="58" type="xstring" value="England"/>
+<entry key="59" type="xstring" value="Canada"/>
+<entry key="60" type="xstring" value="Germany"/>
+<entry key="61" type="xstring" value="Iran"/>
+<entry key="62" type="xstring" value="Philippines"/>
+<entry key="63" type="xstring" value="Italy"/>
+<entry key="64" type="xstring" value="Poland"/>
+<entry key="65" type="xstring" value="Columbia"/>
+<entry key="66" type="xstring" value="Cambodia"/>
+<entry key="67" type="xstring" value="Thailand"/>
+<entry key="68" type="xstring" value="Ecuador"/>
+<entry key="69" type="xstring" value="Laos"/>
+<entry key="70" type="xstring" value="Taiwan"/>
+<entry key="71" type="xstring" value="Haiti"/>
+<entry key="72" type="xstring" value="Portugal"/>
+<entry key="73" type="xstring" value="Dominican-Republic"/>
+<entry key="74" type="xstring" value="El-Salvador"/>
+<entry key="75" type="xstring" value="France"/>
+<entry key="76" type="xstring" value="Guatemala"/>
+<entry key="77" type="xstring" value="China"/>
+<entry key="78" type="xstring" value="Japan"/>
+<entry key="79" type="xstring" value="Yugoslavia"/>
+<entry key="80" type="xstring" value="Peru"/>
+<entry key="81" type="xstring" value="Outlying-US(Guam-USVI-etc)"/>
+<entry key="82" type="xstring" value="Scotland"/>
+<entry key="83" type="xstring" value="Trinadad&amp;Tobago"/>
+<entry key="84" type="xstring" value="Greece"/>
+<entry key="85" type="xstring" value="Nicaragua"/>
+<entry key="86" type="xstring" value="Vietnam"/>
+<entry key="87" type="xstring" value="Hong"/>
+<entry key="88" type="xstring" value="Ireland"/>
+<entry key="89" type="xstring" value="Hungary"/>
+<entry key="90" type="xstring" value="Holand-Netherlands"/>
+<entry key="91" type="xstring" value="&lt;=50K"/>
+</config>
+<entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+</config>
+<config key="CFG_Color_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="CFG_Color">
+<entry key="Red" type="xint" value="255"/>
+<entry key="Green" type="xint" value="175"/>
+<entry key="Blue" type="xint" value="175"/>
+<entry key="Alpha" type="xint" value="255"/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="factory" type="xstring" value="org.knime.ext.jfc.node.histogram.JfcHistogramChartNodeFactory"/>
+<entry key="node-name" type="xstring" value="Histogram Chart (JFreeChart)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME JFreeChart nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.jfreechart"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.0.v201702101156"/>
+<entry key="node-feature-name" type="xstring" value="KNIME JFreeChart"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.jfreechart.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.4.0.v201702101156"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Histogram Chart (JFreeChart)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
