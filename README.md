@@ -1,6 +1,7 @@
-ç# Notes and works from my CS's university courses at the Universidad de Granada
+# Notes and works from my CS's university courses at the Universidad de Granada
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
 ## First year
 
 - MP (Metodología de la Programación)
